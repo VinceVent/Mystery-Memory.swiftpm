@@ -20,14 +20,14 @@ struct carelView: View {
                     Text("Date of Death: 12/23/47")
                     Text("Inguires: cuts on the leg and arm ")
                     Text("Body found: Next to the camping road")
-                    Text("Suspect: Suspect 1, Suspect 2, Suspect 3, Suspect 4")
+                    Text("Suspect: Kat, Pugo, Joy, Garp")
                     
                 }
                 
                 .foregroundColor(.white)
                 
                 NavigationLink("who's the Murder?"){
-                    DecideView(wordplay: $wordplay)
+                    DecideView2(wordplay: $wordplay)
                 }
                 .foregroundColor(.yellow)
                 .padding()

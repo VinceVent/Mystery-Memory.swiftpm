@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var ani:Bool = false
-     @Binding var wordplay: WordPlay
+    @Binding var wordplay: WordPlay
     var body: some View {
         NavigationView {
             
@@ -42,7 +42,7 @@ struct ContentView: View {
                     
                     Divider()
                         .overlay(.pink)
-                       // .frame(height:)
+                    // .frame(height:)
                         .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
                     
                     VStack {
@@ -61,7 +61,7 @@ struct ContentView: View {
                                     withAnimation(Animation.linear(duration:5.0).repeatForever())
                                     { ani.toggle()}
                                     
-                                }   
+                                }
                             
                             //  RoundedRectangle(cornerRadius: 20)
                             // .frame(width: 200, height: 200, alignment: .center)
@@ -80,8 +80,8 @@ struct ContentView: View {
                         
                         
                         VStack{
-                                NavigationLink("Carel"){
-                                    carelView(wordplay: $wordplay)
+                            NavigationLink("Carel"){
+                                carelView(wordplay: $wordplay)
                             }
                             .foregroundColor(.green)
                             .padding()
@@ -89,7 +89,7 @@ struct ContentView: View {
                             .background(.thickMaterial)
                             .clipShape(RoundedRectangle(cornerRadius: 30))
                         }
-   
+                        
                         
                         VStack{
                             NavigationLink("Romen"){
@@ -102,15 +102,23 @@ struct ContentView: View {
                             .clipShape(RoundedRectangle(cornerRadius: 30))
                         }
                         
-                        
-                        
-                        
+                        VStack{
+                            NavigationLink("john"){
+                                johnView(wordplay: $wordplay)
+                                
+                            }
+                            .foregroundColor(.yellow)
+                            .padding()
+                            .font(.title3)
+                            .background(.gray)
+                            .clipShape(RoundedRectangle(cornerRadius: 30))
+                        }
                     }
                 }
             }
-        }
-      
-       
+            
+            
         }
     }
-
+    
+}

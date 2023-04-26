@@ -26,8 +26,8 @@ struct RView: View {
                 
                 .foregroundColor(.white)
                 
-                NavigationLink("who's the Murder?"){
-                    DecideView(wordplay: $wordplay)
+                NavigationLink("Suspect alibi"){
+                    SusView1(wordplay: $wordplay)
                 }
                 .foregroundColor(.yellow)
                 .padding()
@@ -35,6 +35,7 @@ struct RView: View {
                 .background(.gray)
                 .clipShape(RoundedRectangle(cornerRadius: 30))
             }
+              .navigationTitle("Romen")
             
         }
     }

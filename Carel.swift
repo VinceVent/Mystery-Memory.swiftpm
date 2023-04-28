@@ -26,8 +26,8 @@ struct carelView: View {
                 
                 .foregroundColor(.white)
                 
-                NavigationLink("who's the Murder?"){
-                    DecideView2()
+                NavigationLink("Suspect alibi"){
+                    SusView2()
                 }
                 .foregroundColor(.yellow)
                 .padding()

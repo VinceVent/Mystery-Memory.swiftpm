@@ -81,14 +81,14 @@ struct CaseView: View {
                         }
                         
                         VStack{
-                            NavigationLink("john"){
+                            NavigationLink("John"){
                                 johnView()
                                 
                             }
-                            .foregroundColor(.yellow)
+                            .foregroundColor(.blue)
                             .padding()
                             .font(.title3)
-                            .background(.gray)
+                            .background(.yellow)
                             .clipShape(RoundedRectangle(cornerRadius: 30))
                         }
                     }

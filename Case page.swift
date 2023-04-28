@@ -91,6 +91,13 @@ struct CaseView: View {
                             .background(.yellow)
                             .clipShape(RoundedRectangle(cornerRadius: 30))
                         }
+                        
+                        VStack{
+                            NavigationLink("Charles"){
+                                CharlesView()
+                                
+                            }
+                        }
                     }
                 }
             

@@ -35,7 +35,7 @@ struct CharlesView: View {
                 .foregroundColor(.white)
                 
                 NavigationLink("Suspect alibi"){
-                    SusView3()
+                    SusView4()
                 }
                 .foregroundColor(.yellow)
                 .padding()

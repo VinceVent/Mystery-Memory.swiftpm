@@ -18,9 +18,9 @@ struct johnView: View {
                     
                     Text("Cause of Death: knife through the back ")
                     Text("Date of Death: 6/8/32")
-                    Text("Inguires:  ")
-                    Text("Body found: ")
-                    Text("Suspect:")
+                    Text("Inguires: Severe Bleeding ")
+                    Text("Body found: In his home")
+                    Text("Suspect: Mike, Mark, Jim, Tim")
                     
                 }
                 

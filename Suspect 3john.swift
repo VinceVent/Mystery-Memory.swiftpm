@@ -6,13 +6,13 @@ struct SusView3: View {
         ZStack{
             Rectangle()
             VStack{
-                Text("Karen - I eating chicken in the dinning room.")  
+                Text("Cart: I was going to the store to buy furniture")
                 Divider()
-                Text("Gabe - I was sleeping in the backyard till it rained. ")  
+                Text("Mike: I was cutting tomatoes and got bored")
                 Divider()
-                Text("Tom - I was watching TV in the basement.")  
+                Text("Jim: I was inside reading")
                 Divider()
-                Text("Mark - I was with the cat eating in the kitchen.")  
+                Text("Tim: I was watching a moive and making popcorn")
                 Divider()
                 NavigationLink("who's the Murder?"){
                     DecideView3()

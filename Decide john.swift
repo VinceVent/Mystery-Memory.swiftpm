@@ -6,14 +6,14 @@ struct DecideView3: View {
         ZStack{
             Rectangle()
             VStack{
-                Text("Descide who is the Murder!")
+                Text("Decide who is the Murder!")
                     .foregroundColor(.red)
                 Text(" [\(dec)]")
                     .foregroundColor(.blue)
                 HStack{
                     
-                    Button("Pugo"){
-                        dec = "no Pugo"
+                    Button("Cart"){
+                        dec = "No but close"
                         
                     }
                     .foregroundColor(.yellow)
@@ -21,8 +21,8 @@ struct DecideView3: View {
                     .font(.title3)
                     .background(.red)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    Button("Joy"){
-                        dec = "Wrong joy"
+                    Button("Mike"){
+                        dec = "Correct!"
                         
                     }
                     .foregroundColor(.yellow)
@@ -30,9 +30,9 @@ struct DecideView3: View {
                     .font(.title3)
                     .background(.green)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    Button("Kat"){
+                    Button("Jim"){
                         
-                        dec = "no but quiet Fishy"
+                        dec = "Incorrect"
                         
                         
                     }
@@ -41,8 +41,8 @@ struct DecideView3: View {
                     .font(.title3)
                     .background(.blue)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    Button("Garp"){
-                        dec = "You got The Fish!🍣"
+                    Button("Tim"){
+                        dec = "Wrong"
                         
                     }
                     .foregroundColor(.yellow)

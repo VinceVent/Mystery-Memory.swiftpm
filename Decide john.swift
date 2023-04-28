@@ -1,7 +1,7 @@
 import SwiftUI
-struct DecideView2: View {
+struct DecideView3: View {
   //  @Binding var wordplay: WordPlay
-@State var dec = ""
+    @State var dec = ""
     var body: some View {
         ZStack{
             Rectangle()
@@ -16,23 +16,23 @@ struct DecideView2: View {
                         dec = "no Pugo"
                         
                     }
-                        .foregroundColor(.yellow)
-                        .padding()
-                        .font(.title3)
-                        .background(.red)
-                        .clipShape(RoundedRectangle(cornerRadius: 15))
+                    .foregroundColor(.yellow)
+                    .padding()
+                    .font(.title3)
+                    .background(.red)
+                    .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Joy"){
                         dec = "Wrong joy"
                         
                     }
-                        .foregroundColor(.yellow)
-                        .padding()
-                        .font(.title3)
-                        .background(.green)
-                        .clipShape(RoundedRectangle(cornerRadius: 15))
+                    .foregroundColor(.yellow)
+                    .padding()
+                    .font(.title3)
+                    .background(.green)
+                    .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Kat"){
                         
-                       dec = "no but quiet Fishy"
+                        dec = "no but quiet Fishy"
                         
                         
                     }
@@ -45,11 +45,11 @@ struct DecideView2: View {
                         dec = "You got The Fish!🍣"
                         
                     }
-                        .foregroundColor(.yellow)
-                        .padding()
-                        .font(.title3)
-                        .background(.pink)
-                        .clipShape(RoundedRectangle(cornerRadius: 15))
+                    .foregroundColor(.yellow)
+                    .padding()
+                    .font(.title3)
+                    .background(.pink)
+                    .clipShape(RoundedRectangle(cornerRadius: 15))
                     
                 }
                 .foregroundColor(.white)

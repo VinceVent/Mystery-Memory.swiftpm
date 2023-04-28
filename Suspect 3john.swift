@@ -1,12 +1,12 @@
 import SwiftUI
-struct SusView1: View {
-     // @Binding var wordplay: WordPlay
+struct SusView3: View {
+  //  @Binding var wordplay: WordPlay
     var body: some View {
-      
+        
         ZStack{
             Rectangle()
             VStack{
-                Text("Karen - I was outside swimming in a pool till it rained.")  
+                Text("Karen - I eating chicken in the dinning room.")  
                 Divider()
                 Text("Gabe - I was sleeping in the backyard till it rained. ")  
                 Divider()
@@ -15,8 +15,8 @@ struct SusView1: View {
                 Text("Mark - I was with the cat eating in the kitchen.")  
                 Divider()
                 NavigationLink("who's the Murder?"){
-                    DecideView()
-                  //  DecideView(wordplay: $wordplay)
+                    DecideView3()
+                    // DecideView3(wordplay: $wordplay)
                 }
                 
                 .foregroundColor(.yellow)
@@ -26,10 +26,10 @@ struct SusView1: View {
                 .clipShape(RoundedRectangle(cornerRadius: 30))
             }      
             .foregroundColor(.white)         
-          //      .font(.title3)  
-                       
-                       
-                       
+            //      .font(.title3)  
+            
+            
+            
         }
         
     }

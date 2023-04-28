@@ -1,6 +1,6 @@
 import SwiftUI
 struct DecideView: View {
-    @Binding var wordplay: WordPlay
+  //  @Binding var wordplay: WordPlay
 @State var dec = ""
     var body: some View {
         ZStack{

@@ -1,6 +1,6 @@
 import SwiftUI
 struct RView: View {
-    @Binding var wordplay: WordPlay
+   // @Binding var wordplay: WordPlay
     var body: some View {
         ZStack{
             Rectangle()
@@ -27,7 +27,8 @@ struct RView: View {
                 .foregroundColor(.white)
                 
                 NavigationLink("Suspect alibi"){
-                    SusView1(wordplay: $wordplay)
+                   SusView1()
+                    // SusView1(wordplay: $wordplay)
                 }
                 .foregroundColor(.yellow)
                 .padding()

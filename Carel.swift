@@ -1,6 +1,6 @@
 import SwiftUI
 struct carelView: View {
-    @Binding var wordplay: WordPlay
+ //   @Binding var wordplay: WordPlay
     var body: some View {
         ZStack{
             Rectangle()
@@ -27,7 +27,7 @@ struct carelView: View {
                 .foregroundColor(.white)
                 
                 NavigationLink("who's the Murder?"){
-                    DecideView2(wordplay: $wordplay)
+                    DecideView2()
                 }
                 .foregroundColor(.yellow)
                 .padding()

@@ -19,6 +19,8 @@ struct CaseView: View {
                     
                     
                     VStack {
+                        NavigationLink("Instruction"){DetView()}
+                            .foregroundColor(.blue)
                         ZStack{
                             RoundedRectangle(cornerRadius: ani ? 120 : 20)
                                 .frame(width: 160, height:80, alignment: .center)

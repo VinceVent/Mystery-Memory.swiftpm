@@ -2,43 +2,10 @@ import SwiftUI
 struct DetView: View {
     // @Binding var wordplay: WordPlay
     var body: some View {
-        ZStack{
-            Rectangle()
-            VStack{
-                VStack{
-                    Text("age: 23")
-                    
-                    Text("Address: 1209, Schoolmiller Rd")
-                    
-                    Text("Hate: dogs, swimming, and working at his Job")
-                    
-                    Text("Like: his cats, his friends, sleeping in, his Sword (passed down from his family)")
-                    Text("Weather: raining")
-                    
-                    
-                    Text("Cause of Death: sword though the skull")
-                    Text("Date of Death: 10/25/34")
-                    Text("Inguires: a 10inch cut on one of his arms and left leg is fully cut off from the body. ")
-                    Text("Body found: In the middle of the living room with the sword sticking through the skull")
-                    Text("Suspect: Karen, Gabe, Tom, Mark")
-                    
-                }
-                
-                .foregroundColor(.white)
-                
-                NavigationLink("Suspect alibi"){
-                    SusView1()
-                    // SusView1(wordplay: $wordplay)
-                }
-                .foregroundColor(.yellow)
-                .padding()
-                .font(.title3)
-                .background(.gray)
-                .clipShape(RoundedRectangle(cornerRadius: 30))
-            }
-            .navigationTitle("Romen")
-            
-        }
+        Text("This game is like any murder mystery solving game but with it’s own unique style.")
+          Text(  " You are the detective that will be solving the case and find out who was the murder out of the suspect, but you can only look over the file for a limited amount of time, which when hit 0 u loose, but you can stay on one file/document for long as you like to think on how to solve the mystery.")
+           Text( " One last thing, you will have a note pad to write down any notes you have and that is all.")
+       
     }
 }
 

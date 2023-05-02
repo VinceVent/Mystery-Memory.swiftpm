@@ -17,8 +17,8 @@ struct AllenView: View {
                     
                     
                     Text("Cause of death: electrocuted by a eel ")
-                    Text("Date of Death: ")
-                    Text("Inguires: ")
+                    Text("Date of Death: 11/22/64")
+                    Text("Inguires: shock marks all over his face, ")
                     Text("Body found: ")
                     Text("Suspect: ")
                     

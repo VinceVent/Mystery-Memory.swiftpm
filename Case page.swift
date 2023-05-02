@@ -122,6 +122,12 @@ struct CaseView: View {
                                 .background(.red)
                                 .clipShape(RoundedRectangle(cornerRadius: 30))
                             }
+                            
+                            VStack{
+                                NavigationLink("Jullia") {
+                                    julliaView()
+                                }
+                            }
                         }
                         
                         Divider()

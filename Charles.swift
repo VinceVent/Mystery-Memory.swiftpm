@@ -14,22 +14,19 @@ struct CharlesView: View {
             Rectangle()
             VStack{
                 VStack{
-                    Text("")
+                    Text("age: 45")
                     
-                    Text("")
+                    Text("Adress: His homw]e ")
                     
-                    Text("")
+                    Text("Hate: People who steal, robberies")
                     
-                    Text("")
-                    Text("")
+                    Text("Like: His car and other vehicles")
+                    Text("Weather and Time of Day: Cloudy and Night ")
                     
                     
-                    Text("")
-                    Text("")
-                    Text("")
-                    Text("")
-                    Text("")
-                    
+                    Text("Stolen Item: His car")
+                    Text("Date of when it was stolen: ")
+                    Text("Suspects: George, Ron, Michael, Harry")
                 }
                 
                 .foregroundColor(.white)

@@ -13,8 +13,8 @@ struct DecideView4: View {
                     .foregroundColor(.blue)
                 HStack{
                     
-                    Button(""){
-                        dec = ""
+                    Button("George"){
+                        dec = "Wrong"
                         
                     }
                     .foregroundColor(.yellow)
@@ -22,8 +22,8 @@ struct DecideView4: View {
                     .font(.title3)
                     .background(.red)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    Button(""){
-                        dec = ""
+                    Button("Ron"){
+                        dec = "Wrong"
                         
                     }
                     .foregroundColor(.yellow)
@@ -31,9 +31,9 @@ struct DecideView4: View {
                     .font(.title3)
                     .background(.green)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    Button(""){
+                    Button("Michael"){
                         
-                        dec = ""
+                        dec = "Wrong"
                         
                         
                     }
@@ -42,8 +42,8 @@ struct DecideView4: View {
                     .font(.title3)
                     .background(.blue)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    Button(""){
-                        dec = ""
+                    Button("Harry"){
+                        dec = "Correct"
                         
                     }
                     .foregroundColor(.yellow)

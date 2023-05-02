@@ -99,6 +99,11 @@ struct CaseView: View {
                                 CharlesView()
                                 
                             }
+                            .foregroundColor(.gray)
+                            .padding()
+                            .font(.title3)
+                            .background(.red)
+                            .clipShape(RoundedRectangle(cornerRadius: 30))
                         }
                     }
                 }

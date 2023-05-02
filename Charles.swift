@@ -25,7 +25,7 @@ struct CharlesView: View {
                     
                     
                     Text("Stolen Item: His car")
-                    Text("Date of when it was stolen: ")
+                    Text("Date of when it was stolen: A tuesday")
                     Text("Suspects: George, Ron, Michael, Harry")
                 }
                 

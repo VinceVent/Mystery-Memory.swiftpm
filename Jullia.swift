@@ -6,21 +6,19 @@ struct julliaView: View {
             Rectangle()
             VStack{
                 VStack{
-                    Text("age: ")
+                    Text("age: 26")
                     
-                    Text("Address: ")
+                    Text("Address: 123 no RD ")
                     
                     Text("Hate: ")
                     
                     Text("Like: ")
-                    Text("Weather: ")
+                    Text("Weather: Sunny")
                     
                     
-                    Text("")
-                    Text("")
-                    Text("Inguires: ")
-                    Text("Body found: ")
-                    Text("Suspect: ")
+                    Text("Stolen Item: Her car keys")
+                    Text("Date of when it was stolen: A Wednesday")
+                    Text("Suspect: Sean, Dylan, Marry, Scott")
                     
                 }
                 

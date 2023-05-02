@@ -16,7 +16,7 @@ struct CharlesView: View {
                 VStack{
                     Text("age: 45")
                     
-                    Text("Adress: His homw]e ")
+                    Text("Adress: His home ")
                     
                     Text("Hate: People who steal, robberies")
                     

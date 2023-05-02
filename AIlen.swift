@@ -10,7 +10,7 @@ struct AllenView: View {
                     
                     Text("Address:Basement  Rd")
                     
-                    Text("Hate: techology,phones,job, pizza, stuff animal")
+                    Text("Hate: techology,phones,job, meat, stuff animal")
                     
                     Text("Like: trees, animals, school, pots, glasses ")
                     Text("Weather: ")
@@ -19,15 +19,15 @@ struct AllenView: View {
                     Text("Cause of death: electrocuted by a eel ")
                     Text("Date of Death: 11/22/64")
                     Text("Inguires: shock marks all over his face, ")
-                    Text("Body found: ")
-                    Text("Suspect: ")
+                    Text("Body found: in Allen Swimming pool ")
+                    Text("Suspect: Danial, Robert, Preston, Neo ")
                     
                 }
                 
                 .foregroundColor(.white)
                 
                 NavigationLink("Suspect alibi"){
-                    SusView3()
+                    SusView6()
                 }
                 .foregroundColor(.yellow)
                 .padding()

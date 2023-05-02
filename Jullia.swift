@@ -25,7 +25,7 @@ struct julliaView: View {
                 .foregroundColor(.white)
                 
                 NavigationLink("Suspect alibi"){
-                    SusView3()
+                    SusView5()
                 }
                 .foregroundColor(.yellow)
                 .padding()

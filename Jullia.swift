@@ -10,13 +10,13 @@ struct julliaView: View {
                     
                     Text("Address: 123 no RD ")
                     
-                    Text("Hate: ")
+                    Text("Hate: Her job")
                     
-                    Text("Like: ")
+                    Text("Like: Her dog")
                     Text("Weather: Sunny")
                     
                     
-                    Text("Stolen Item: Her car keys")
+                    Text("Stolen Item: A dog")
                     Text("Date of when it was stolen: A Wednesday")
                     Text("Suspect: Sean, Dylan, Marry, Scott")
                     

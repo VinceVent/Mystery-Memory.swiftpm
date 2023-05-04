@@ -2,8 +2,8 @@ import SwiftUI
 
 struct CaseView: View {
     @State private var ani:Bool = false
- //   @State var navigationBarBackButtonHidden = true
-//    @Binding var wordplay: WordPlay
+    //   @State var navigationBarBackButtonHidden = true
+    //    @Binding var wordplay: WordPlay
     var body: some View {
         NavigationView {
             
@@ -15,9 +15,9 @@ struct CaseView: View {
                     .foregroundColor(.black)
                     .frame(width:2000, height:2000)
                 
-                    
-                    
-                    
+                
+                
+                
                 VStack {
                     NavigationLink("Instruction"){DetView()}
                         .foregroundColor(.blue)
@@ -68,7 +68,7 @@ struct CaseView: View {
                                 
                                     .foregroundColor(.white)
                                     .font(.system(size:60))
-                                NavigationLink("Carel"){
+                                NavigationLink("               "){
                                     carelView()
                                 }
                                 .foregroundColor(.green)
@@ -76,8 +76,8 @@ struct CaseView: View {
                                 .padding()
                                 .font(.title2)
                                 .bold()
-                              //  .background(.thickMaterial)
-                               // .clipShape(RoundedRectangle(cornerRadius: 30))
+                                //  .background(.thickMaterial)
+                                // .clipShape(RoundedRectangle(cornerRadius: 30))
                             }
                             
                             
@@ -85,7 +85,7 @@ struct CaseView: View {
                                 
                                     .foregroundColor(.gray)
                                     .font(.system(size:60))
-                                NavigationLink("Romen"){
+                                NavigationLink("               "){
                                     RView()
                                 }
                                 
@@ -93,8 +93,8 @@ struct CaseView: View {
                                 .padding()
                                 .font(.title3)
                                 .bold()
-                             //   .background(.gray)
-                              //  .clipShape(RoundedRectangle(cornerRadius: 30))
+                                //   .background(.gray)
+                                //  .clipShape(RoundedRectangle(cornerRadius: 30))
                             }
                             
                             ZStack{
@@ -102,7 +102,7 @@ struct CaseView: View {
                                 
                                     .foregroundColor(.yellow)
                                     .font(.system(size:60))
-                                NavigationLink("John"){
+                                NavigationLink("               "){
                                     johnView()
                                     
                                 }
@@ -110,17 +110,17 @@ struct CaseView: View {
                                 .padding()
                                 .font(.title3)
                                 .bold()
-                              //  .background(.yellow)
-                              //  .clipShape(RoundedRectangle(cornerRadius: 30))
+                                //  .background(.yellow)
+                                //  .clipShape(RoundedRectangle(cornerRadius: 30))
                             }
                             
                             
                         }
-                       
+                        
                         Divider()
                             .overlay(.pink)
                             .frame(height:200)
-                    
+                        
                         VStack{
                             Text("Medium")
                                 .foregroundColor(.yellow)
@@ -131,7 +131,7 @@ struct CaseView: View {
                                 
                                     .foregroundColor(.red)
                                     .font(.system(size:60))
-                                NavigationLink("Charles"){
+                                NavigationLink("               "){
                                     CharlesView()
                                     
                                 }
@@ -139,7 +139,7 @@ struct CaseView: View {
                                 .padding()
                                 .font(.title3)
                                 .bold()
-                               // .background(.red)
+                                // .background(.red)
                                 //.clipShape(RoundedRectangle(cornerRadius: 30))
                             }
                             
@@ -148,23 +148,23 @@ struct CaseView: View {
                                 
                                     .foregroundColor(.pink)
                                     .font(.system(size:60))
-                                NavigationLink("Jullia") {
+                                NavigationLink("               ") {
                                     julliaView()
                                 }
                                 .foregroundColor(.purple)
-                                 .font(.title3)
+                                .font(.title3)
                                 .bold()
                             }
                             ZStack{
                                 Image(systemName: "questionmark.folder.fill")
-                              
+                                
                                     .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
                                     .font(.system(size:60))
-                                NavigationLink("Allen") {
+                                NavigationLink("               ") {
                                     AllenView()
                                 }
-                            .foregroundColor(.red)
-                                 .font(.title3)
+                                .foregroundColor(.red)
+                                .font(.title3)
                                 .bold()
                             }
                             
@@ -173,8 +173,8 @@ struct CaseView: View {
                         
                         Divider()
                             .overlay(.pink)
-                         .frame(height:200)
-  
+                            .frame(height:200)
+                        
                         VStack{
                             Text("Hard")
                                 .foregroundColor(.red)
@@ -185,8 +185,8 @@ struct CaseView: View {
                                 
                                     .foregroundColor(.green)
                                     .font(.system(size:60))
-                                NavigationLink("Jordan"){
-                                    jordanView()
+                                NavigationLink("               "){
+                                    CharlesView()
                                     
                                 }
                                 .foregroundColor(.yellow)
@@ -202,7 +202,7 @@ struct CaseView: View {
                                 
                                     .foregroundColor(.indigo)
                                     .font(.system(size:60))
-                                NavigationLink("") {
+                                NavigationLink("               ") {
                                     julliaView()
                                 }
                                 .foregroundColor(.green)
@@ -214,7 +214,7 @@ struct CaseView: View {
                                 
                                     .foregroundColor(.teal)
                                     .font(.system(size:60))
-                                NavigationLink("") {
+                                NavigationLink("               ") {
                                     AllenView()
                                 }
                                 .foregroundColor(.white)
@@ -240,11 +240,11 @@ struct CaseView: View {
                             .foregroundColor(.red)
                     }
                 }
-                }
-            
-            
             }
+            
+            
         }
+    }
     
     
 }

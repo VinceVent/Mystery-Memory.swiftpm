@@ -185,8 +185,8 @@ struct CaseView: View {
                                 
                                     .foregroundColor(.green)
                                     .font(.system(size:60))
-                                NavigationLink(""){
-                                    CharlesView()
+                                NavigationLink("Jordan"){
+                                    jordanView()
                                     
                                 }
                                 .foregroundColor(.yellow)

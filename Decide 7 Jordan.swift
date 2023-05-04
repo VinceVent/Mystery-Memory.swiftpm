@@ -22,7 +22,7 @@ struct DecideView7: View {
                     .font(.title3)
                     .background(.red)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    Button("Dylan"){
+                    Button(""){
                         dec = ""
                         
                     }

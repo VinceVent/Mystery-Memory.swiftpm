@@ -22,12 +22,12 @@ struct CaseView: View {
                     NavigationLink("Instruction"){DetView()}
                         .foregroundColor(.blue)
                     ZStack{
-                        RoundedRectangle(cornerRadius: ani ? 120 : 20)
+                        RoundedRectangle(cornerRadius: ani ? 120 : 30)
                             .frame(width: 160, height:80, alignment: .center)
-                            .foregroundColor(.blue
-                                .opacity(0.5))
+                           // .foregroundColor(.blue
+                             //   .opacity(0.5))
                         
-                            .background(LinearGradient(gradient: Gradient( colors:[.red,.red, .orange,.green,.pink]), startPoint: .top, endPoint: .bottom))
+                            .background(LinearGradient(gradient: Gradient( colors:[.black,.green, .yellow,.black]), startPoint: .top, endPoint: .bottom))
                         
                             .frame(width: 160, height: 95, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         

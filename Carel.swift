@@ -18,9 +18,9 @@ struct carelView: View {
                     
                     Text("Cause of Death: Rock to the head")
                     Text("Date of Death: 12/23/47")
-                    Text("Inguires: cuts on the leg and arm ")
+                    Text("Injuires: cuts on the leg and arm ")
                     Text("Body found: Next to the camping road")
-                    Text("Suspect: Kat, Pugo, Joy, Garp")
+                    Text("Suspects: Kat, Pugo, Joy, Garp")
                     
                 }
                 

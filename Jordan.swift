@@ -18,7 +18,7 @@ struct jordanView: View {
                     
                     Text("Stolen Item: ")
                     Text("Date of Death: ")
-                    Text("Suspect: ")
+                    Text("Suspects: ")
                     
                 }
                 

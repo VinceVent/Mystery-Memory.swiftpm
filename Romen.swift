@@ -20,7 +20,7 @@ struct RView: View {
                     Text("Date of Death: 10/25/34")
                     Text("Inguires: a 10inch cut on one of his arms and left leg is fully cut off from the body. ")
                     Text("Body found: In the middle of the living room with the sword sticking through the skull")
-                    Text("Suspect: Karen, Gabe, Tom, Mark")
+                    Text("Suspects: Karen, Gabe, Tom, Mark")
                     
                 }
                 

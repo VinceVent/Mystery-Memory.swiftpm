@@ -18,7 +18,7 @@ struct julliaView: View {
                     
                     Text("Stolen Item: A dog")
                     Text("Date of when it was stolen: A Wednesday")
-                    Text("Suspect: Sean, Dylan, Marry, Scott")
+                    Text("Suspects: Sean, Dylan, Marry, Scott")
                     
                 }
                 

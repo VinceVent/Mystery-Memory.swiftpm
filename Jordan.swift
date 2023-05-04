@@ -25,7 +25,7 @@ struct jordanView: View {
                 .foregroundColor(.white)
                 
                 NavigationLink("Suspect alibi"){
-                    SusView5()
+                    SusView7()
                 }
                 .foregroundColor(.yellow)
                 .padding()
@@ -33,7 +33,7 @@ struct jordanView: View {
                 .background(.gray)
                 .clipShape(RoundedRectangle(cornerRadius: 30))
             }
-              .navigationTitle("Jullia")
+              .navigationTitle("Jordan")
             
         }
     }

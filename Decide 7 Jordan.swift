@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct DecideView5: View {
+struct DecideView7: View {
   //  @Binding var wordplay: WordPlay
     @State var dec = ""
     var body: some View {
@@ -13,8 +13,8 @@ struct DecideView5: View {
                     .foregroundColor(.blue)
                 HStack{
                     
-                    Button("Sean"){
-                        dec = "Wrong"
+                    Button(""){
+                        dec = ""
                         
                     }
                     .foregroundColor(.yellow)
@@ -23,7 +23,7 @@ struct DecideView5: View {
                     .background(.red)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Dylan"){
-                        dec = "Wrong"
+                        dec = ""
                         
                     }
                     .foregroundColor(.yellow)
@@ -31,9 +31,9 @@ struct DecideView5: View {
                     .font(.title3)
                     .background(.green)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    Button("Marry"){
+                    Button(""){
                         
-                        dec = "Wrong"
+                        dec = ""
                         
                         
                     }
@@ -42,8 +42,8 @@ struct DecideView5: View {
                     .font(.title3)
                     .background(.blue)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    Button("Scott"){
-                        dec = "Correct"
+                    Button(""){
+                        dec = ""
                         
                     }
                     .foregroundColor(.yellow)
@@ -58,6 +58,7 @@ struct DecideView5: View {
         }
     }
 }
+
 
 
 

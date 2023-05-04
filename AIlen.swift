@@ -35,7 +35,7 @@ struct AllenView: View {
                 .background(.gray)
                 .clipShape(RoundedRectangle(cornerRadius: 30))
             }
-            .navigationTitle("Jullia")
+            .navigationTitle("Allen")
             
         }
     }

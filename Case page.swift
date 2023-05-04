@@ -62,7 +62,12 @@ struct CaseView: View {
                             Text("Easy")
                                 .foregroundColor(.green)
                                 .font(.title)
-                            VStack{
+                                .bold()
+                            ZStack{
+                                Image(systemName: "questionmark.folder.fill")
+                                
+                                    .foregroundColor(.white)
+                                    .font(.system(size:60))
                                 NavigationLink("Carel"){
                                     carelView()
                                 }
@@ -70,12 +75,16 @@ struct CaseView: View {
                                 
                                 .padding()
                                 .font(.title2)
-                                .background(.thickMaterial)
-                                .clipShape(RoundedRectangle(cornerRadius: 30))
+                                .bold()
+                              //  .background(.thickMaterial)
+                               // .clipShape(RoundedRectangle(cornerRadius: 30))
                             }
                             
                             
-                            VStack{
+                            ZStack{Image(systemName: "questionmark.folder.fill")
+                                
+                                    .foregroundColor(.gray)
+                                    .font(.system(size:60))
                                 NavigationLink("Romen"){
                                     RView()
                                 }
@@ -83,11 +92,16 @@ struct CaseView: View {
                                 .foregroundColor(.yellow)
                                 .padding()
                                 .font(.title3)
-                                .background(.gray)
-                                .clipShape(RoundedRectangle(cornerRadius: 30))
+                                .bold()
+                             //   .background(.gray)
+                              //  .clipShape(RoundedRectangle(cornerRadius: 30))
                             }
                             
-                            VStack{
+                            ZStack{
+                                Image(systemName: "questionmark.folder.fill")
+                                
+                                    .foregroundColor(.yellow)
+                                    .font(.system(size:60))
                                 NavigationLink("John"){
                                     johnView()
                                     
@@ -95,8 +109,9 @@ struct CaseView: View {
                                 .foregroundColor(.blue)
                                 .padding()
                                 .font(.title3)
-                                .background(.yellow)
-                                .clipShape(RoundedRectangle(cornerRadius: 30))
+                                .bold()
+                              //  .background(.yellow)
+                              //  .clipShape(RoundedRectangle(cornerRadius: 30))
                             }
                             
                             
@@ -110,8 +125,12 @@ struct CaseView: View {
                             Text("Medium")
                                 .foregroundColor(.yellow)
                                 .font(.title)
-                            
-                            VStack{
+                                .bold()
+                            ZStack{
+                                Image(systemName: "questionmark.folder.fill")
+                                
+                                    .foregroundColor(.red)
+                                    .font(.system(size:60))
                                 NavigationLink("Charles"){
                                     CharlesView()
                                     
@@ -119,15 +138,37 @@ struct CaseView: View {
                                 .foregroundColor(.gray)
                                 .padding()
                                 .font(.title3)
-                                .background(.red)
-                                .clipShape(RoundedRectangle(cornerRadius: 30))
+                                .bold()
+                               // .background(.red)
+                                //.clipShape(RoundedRectangle(cornerRadius: 30))
                             }
                             
-                            VStack{
+                            ZStack{
+                                Image(systemName: "questionmark.folder.fill")
+                                
+                                    .foregroundColor(.pink)
+                                    .font(.system(size:60))
                                 NavigationLink("Jullia") {
                                     julliaView()
                                 }
+                                .foregroundColor(.purple)
+                                 .font(.title3)
+                                .bold()
                             }
+                            ZStack{
+                                Image(systemName: "questionmark.folder.fill")
+                              
+                                    .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                                    .font(.system(size:60))
+                                NavigationLink("Allen") {
+                                    AllenView()
+                                }
+                            .foregroundColor(.red)
+                                 .font(.title3)
+                                .bold()
+                            }
+                            
+                            
                         }
                         
                         Divider()
@@ -138,8 +179,48 @@ struct CaseView: View {
                             Text("Hard")
                                 .foregroundColor(.red)
                                 .font(.title)
-                         
+                                .bold()
+                            ZStack{
+                                Image(systemName: "questionmark.folder.fill")
+                                
+                                    .foregroundColor(.green)
+                                    .font(.system(size:60))
+                                NavigationLink(""){
+                                    CharlesView()
+                                    
+                                }
+                                .foregroundColor(.yellow)
+                                .padding()
+                                .font(.title3)
+                                .bold()
+                                // .background(.red)
+                                //.clipShape(RoundedRectangle(cornerRadius: 30))
+                            }
                             
+                            ZStack{
+                                Image(systemName: "questionmark.folder.fill")
+                                
+                                    .foregroundColor(.indigo)
+                                    .font(.system(size:60))
+                                NavigationLink("") {
+                                    julliaView()
+                                }
+                                .foregroundColor(.green)
+                                .font(.title3)
+                                .bold()
+                            }
+                            ZStack{
+                                Image(systemName: "questionmark.folder.fill")
+                                
+                                    .foregroundColor(.teal)
+                                    .font(.system(size:60))
+                                NavigationLink("") {
+                                    AllenView()
+                                }
+                                .foregroundColor(.white)
+                                .font(.title3)
+                                .bold()
+                            }
                             
                             
                             
@@ -151,7 +232,13 @@ struct CaseView: View {
                     }
                     Divider()
                         .overlay(.pink)
-                    
+                    ZStack{ Image(systemName: "questionmark.folder")
+                            .foregroundColor(.brown)
+                            .font(.system(size:60))
+                        Text("X")
+                            .font(.system(size:77))
+                            .foregroundColor(.red)
+                    }
                 }
                 }
             

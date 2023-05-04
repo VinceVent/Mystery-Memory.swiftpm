@@ -33,7 +33,7 @@ struct julliaView: View {
                 .background(.gray)
                 .clipShape(RoundedRectangle(cornerRadius: 30))
             }
-              .navigationTitle("John")
+              .navigationTitle("Jullia")
             
         }
     }

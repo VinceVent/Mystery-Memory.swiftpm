@@ -219,7 +219,7 @@ struct CaseView: View {
                                     .foregroundColor(.teal)
                                     .font(.system(size:60))
                                 NavigationLink("               ") {
-                                    AllenView()
+                                    RobertView()
                                 }
                                 .foregroundColor(.white)
                                 .font(.title3)

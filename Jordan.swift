@@ -18,7 +18,7 @@ struct jordanView: View {
                     
                     Text("Cause of Death: Car Crash")
                     Text("Date of Death:  3/3/88")
-                    Text("Suspects: Samuel, Theodore, Jake, Jacob")
+                    Text("Suspects: Samuel, Theodore, Jake, Jacob, James")
                     
                 }
                 

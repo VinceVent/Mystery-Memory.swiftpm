@@ -13,8 +13,9 @@ struct SusView7: View {
                 Divider()
                 Text("Jake: ")
                 Divider()
-                Text("jacob: ")
+                Text("Jacob: ")
                 Divider()
+                Text("James: ")
                 NavigationLink("Who Murdered Jordan?"){
                     DecideView7()
                     // DecideView3(wordplay: $wordplay)

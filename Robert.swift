@@ -25,7 +25,7 @@ struct RobertView: View {
                 .foregroundColor(.white)
                 
                 NavigationLink("Suspect alibi"){
-                    SusView7()
+                    SusView9()
                 }
                 .foregroundColor(.yellow)
                 .padding()

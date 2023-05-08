@@ -13,7 +13,7 @@ struct jordanView: View {
                     Text("Hate: Wild animals, taxi, uber")
                     
                     Text("Like: His car, His TV ")
-                    Text("Weather: Cloudy ")
+                    Text("Weather: Storm")
                     
                     
                     Text("Cause of Death: Car Crash")

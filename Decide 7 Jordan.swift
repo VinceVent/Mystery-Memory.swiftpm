@@ -11,10 +11,10 @@ struct DecideView7: View {
                     .foregroundColor(.red)
                 Text(" [\(dec)]")
                     .foregroundColor(.blue)
-                HStack{
+                VStack{
                     
-                    Button(""){
-                        dec = ""
+                    Button("Samuel"){
+                        dec = "Incorrect"
                         
                     }
                     .foregroundColor(.yellow)
@@ -22,8 +22,9 @@ struct DecideView7: View {
                     .font(.title3)
                     .background(.red)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    Button(""){
-                        dec = ""
+                    .frame(width: 100, height: 100)
+                    Button("Theo"){
+                        dec = "Not right"
                         
                     }
                     .foregroundColor(.yellow)
@@ -31,9 +32,10 @@ struct DecideView7: View {
                     .font(.title3)
                     .background(.green)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    Button(""){
+                    .frame(width: 100, height: 100)
+                    Button("Jake"){
                         
-                        dec = ""
+                        dec = "Not correct"
                         
                         
                     }
@@ -42,16 +44,26 @@ struct DecideView7: View {
                     .font(.title3)
                     .background(.blue)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    Button(""){
-                        dec = ""
+                    .frame(width: 100, height: 100)
+                    Button("Jacob"){
+                        dec = "Correct"
                         
+                    }
+                    .foregroundColor(.yellow)
+                    .padding()
+                    .font(.title3)
+                    .background(.blue)
+                    .clipShape(RoundedRectangle(cornerRadius: 15))
+                    .frame(width: 100, height: 100)
+                    Button("James"){
+                        dec = "Incorrect"
                     }
                     .foregroundColor(.yellow)
                     .padding()
                     .font(.title3)
                     .background(.pink)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    
+                    .frame(width: 100, height: 100)
                 }
                 .foregroundColor(.white)
             }

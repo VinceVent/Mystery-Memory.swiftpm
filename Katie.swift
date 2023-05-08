@@ -6,19 +6,19 @@ struct KatieView: View {
             Rectangle()
             VStack{
                 VStack{
-                    Text("age: ")
+                    Text("age: 29")
                     
-                    Text("Address:  ")
+                    Text("Address: Chronos Ln ")
                     
-                    Text("Hate: ")
+                    Text("Hate: watching TV, internet, TickTok  ")
                     
-                    Text("Like: ")
-                    Text("Weather: ")
+                    Text("Like: the cold, winter, sleep, hanging out with here friends ")
+                    Text("Weather: snowing ")
+                    Text("temperature: -2")
                     
-                    
-                    Text("Stolen Item: ")
-                    Text("Date of Death: ")
-                    Text("Suspects: ")
+                    Text("Cause of Death: frozed in a locked cabin ")
+                    Text("Date of Death: 12-29-37")
+                    Text("Suspects: Blake, Wold, Aqua, Owen, Ethen")
                     
                 }
                 
@@ -33,7 +33,7 @@ struct KatieView: View {
                 .background(.gray)
                 .clipShape(RoundedRectangle(cornerRadius: 30))
             }
-            .navigationTitle("Jordan")
+            .navigationTitle("Katie")
             
         }
     }

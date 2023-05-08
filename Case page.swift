@@ -5,7 +5,7 @@ struct CaseView: View {
     //   @State var navigationBarBackButtonHidden = true
     //    @Binding var wordplay: WordPlay
     var body: some View {
-        NavigationView {
+      
             
             
             
@@ -247,7 +247,7 @@ struct CaseView: View {
             }
             
             
-        }
+        
     }
     
     

@@ -34,7 +34,7 @@ struct KatieView: View {
                 .clipShape(RoundedRectangle(cornerRadius: 30))
             }
             .navigationTitle("Katie")
-            
+           
         }
     }
 }

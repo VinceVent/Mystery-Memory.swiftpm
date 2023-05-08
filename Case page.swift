@@ -207,7 +207,7 @@ struct CaseView: View {
                                     .foregroundColor(.indigo)
                                     .font(.system(size:60))
                                 NavigationLink("               ") {
-                                    julliaView()
+                                    KatieView()
                                 }
                                 .foregroundColor(.green)
                                 .font(.title3)

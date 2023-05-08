@@ -6,19 +6,19 @@ struct jordanView: View {
             Rectangle()
             VStack{
                 VStack{
-                    Text("age: ")
+                    Text("age: 58")
                     
-                    Text("Address:  ")
+                    Text("Address: 432 Notreal RD ")
                     
-                    Text("Hate: ")
+                    Text("Hate: Wild animals, taxi, uber")
                     
-                    Text("Like: ")
-                    Text("Weather: ")
+                    Text("Like: His car, His TV ")
+                    Text("Weather: Cloudy ")
                     
                     
-                    Text("Stolen Item: ")
-                    Text("Date of Death: ")
-                    Text("Suspects: ")
+                    Text("Cause of Death: Car Crash")
+                    Text("Date of Death:  3/3/88")
+                    Text("Suspects: Samuel, Theodore, Jake, Jacob")
                     
                 }
                 

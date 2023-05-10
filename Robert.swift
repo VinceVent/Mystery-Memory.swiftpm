@@ -16,7 +16,7 @@ struct RobertView: View {
                     Text("Weather: rainy")
                     
                     
-                    Text("Stolen Items: All of his books")
+                    Text("Stolen Items: His books")
                     Text("Date: Monday")
                     Text("Suspects: Joel, Freddy, Brian, Roger, Johnny")
                     

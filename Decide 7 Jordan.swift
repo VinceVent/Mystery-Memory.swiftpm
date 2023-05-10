@@ -7,7 +7,7 @@ struct DecideView7: View {
         ZStack{
             Rectangle()
             VStack{
-                Text("Decide who stole the it")
+                Text("Decide who is the murderer")
                     .foregroundColor(.red)
                 Text(" [\(dec)]")
                     .foregroundColor(.blue)

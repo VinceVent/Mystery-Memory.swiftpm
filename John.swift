@@ -6,17 +6,17 @@ struct johnView: View {
             Rectangle()
             VStack{
                 VStack{
-                    Text("age: 16")
+                    Text("Age: 16")
                     
                     Text("Address: 4133, JokeCity Rd")
                     
-                    Text("Hate: fighting, war, guns, technology ")
+                    Text("Hate: Fighting, war, guns, technology ")
                     
-                    Text("Like: himself, his fan, his family, his pet axolotl")
+                    Text("Like: Himself, his fan, his family, his pet axolotl")
                     Text("Weather: Snowing 90%")
                     
                     
-                    Text("Cause of Death: knife through the back ")
+                    Text("Cause of Death: Knife through the back ")
                     Text("Date of Death: 6/8/32")
                     Text("Injuires: Severe Bleeding ")
                     Text("Body found: In his home")
@@ -26,7 +26,7 @@ struct johnView: View {
                 
                 .foregroundColor(.white)
                 
-                NavigationLink("Suspect alibi"){
+                NavigationLink("Suspect Alibi"){
                     SusView3()
                 }
                 .foregroundColor(.yellow)

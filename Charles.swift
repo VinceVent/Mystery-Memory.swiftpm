@@ -14,7 +14,7 @@ struct CharlesView: View {
             Rectangle()
             VStack{
                 VStack{
-                    Text("age: 45")
+                    Text("Age: 45")
                     
                     Text("Adress: His home ")
                     
@@ -25,13 +25,13 @@ struct CharlesView: View {
                     
                     
                     Text("Stolen Item: His car")
-                    Text("Date of when it was stolen: A tuesday")
+                    Text("Date of when it was stolen: A Tuesday")
                     Text("Suspects: George, Ron, Michael, Harry")
                 }
                 
                 .foregroundColor(.white)
                 
-                NavigationLink("Suspect alibi"){
+                NavigationLink("Suspect Alibi"){
                     SusView4()
                 }
                 .foregroundColor(.yellow)

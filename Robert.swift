@@ -6,14 +6,14 @@ struct RobertView: View {
             Rectangle()
             VStack{
                 VStack{
-                    Text("age: 37 ")
+                    Text("Age: 37 ")
                     
                     Text("Address: 432 Robert RD")
                     
-                    Text("Hate: loud noises, expensive items")
+                    Text("Hate: Loud noises, expensive items")
                     
-                    Text("Like: his house, his car, going to the library, his books")
-                    Text("Weather: rainy")
+                    Text("Like: His house, his car, going to the library, his books")
+                    Text("Weather: Rainy")
                     
                     
                     Text("Stolen Items: His books")
@@ -24,7 +24,7 @@ struct RobertView: View {
                 
                 .foregroundColor(.white)
                 
-                NavigationLink("Suspect alibi"){
+                NavigationLink("Suspect Alibi"){
                     SusView9()
                 }
                 .foregroundColor(.yellow)

@@ -6,7 +6,7 @@ struct julliaView: View {
             Rectangle()
             VStack{
                 VStack{
-                    Text("age: 26")
+                    Text("Age: 26")
                     
                     Text("Address: 123 no RD ")
                     
@@ -16,7 +16,7 @@ struct julliaView: View {
                     Text("Weather: Sunny")
                     
                     
-                    Text("Stolen Item: A dog")
+                    Text("Stolen animal: A dog")
                     Text("Date of when it was stolen: A Wednesday")
                     Text("Suspects: Sean, Dylan, Marry, Scott")
                     
@@ -24,7 +24,7 @@ struct julliaView: View {
                 
                 .foregroundColor(.white)
                 
-                NavigationLink("Suspect alibi"){
+                NavigationLink("Suspect Alibi"){
                     SusView5()
                 }
                 .foregroundColor(.yellow)

@@ -6,27 +6,27 @@ struct AllenView: View {
             Rectangle()
             VStack{
                 VStack{
-                    Text("age:17 ")
+                    Text("Age: 17")
                     
-                    Text("Address:Basement  Rd")
+                    Text("Address: Basement  Rd")
                     
-                    Text("Hate: techology,phones,job, meat, stuff animal")
+                    Text("Hate: Techology, phones, job, meat, stuffed animals")
                     
                     Text("Like: trees, animals, school, pots, glasses ")
-                    Text("Weather: cloudy")
+                    Text("Weather: Cloudy")
                     
                     
-                    Text("Cause of death: electrocuted by a eel ")
+                    Text("Cause of death: electrocuted by an eel")
                     Text("Date of Death: 11/22/64")
-                    Text("Injuires: shock marks all over his face, ")
+                    Text("Injuires: Shock marks all over his face,")
                     Text("Body found: In Allen's Swimming pool ")
-                    Text("Suspects: Danial, Robert, Preston, Neo ")
+                    Text("Suspects: Danial, Robert, Preston, Neo")
                     
                 }
                 
                 .foregroundColor(.white)
                 
-                NavigationLink("Suspect alibi"){
+                NavigationLink("Suspect Alibi"){
                     SusView6()
                 }
                 .foregroundColor(.yellow)

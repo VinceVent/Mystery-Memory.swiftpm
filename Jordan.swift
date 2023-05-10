@@ -6,7 +6,7 @@ struct jordanView: View {
             Rectangle()
             VStack{
                 VStack{
-                    Text("age: 58")
+                    Text("Age: 58")
                     
                     Text("Address: 432 Notreal RD ")
                     
@@ -27,7 +27,7 @@ struct jordanView: View {
                 
                 .foregroundColor(.white)
                 
-                NavigationLink("Suspect alibi"){
+                NavigationLink("Suspect Alibi"){
                     SusView7()
                 }
                 .foregroundColor(.yellow)

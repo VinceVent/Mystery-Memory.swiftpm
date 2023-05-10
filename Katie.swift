@@ -6,14 +6,14 @@ struct KatieView: View {
             Rectangle()
             VStack{
                 VStack{
-                    Text("age: 29")
+                    Text("Age: 29")
                     
                     Text("Address: Chronos Ln ")
                     
-                    Text("Hate: watching TV, internet, TickTok  ")
+                    Text("Hate: watching TV, internet, TikTok")
                     
-                    Text("Like: the cold, winter, sleep, hanging out with her friends ")
-                    Text("Weather: snowing ")
+                    Text("Like: The cold, winter, sleep, hanging out with her friends ")
+                    Text("Weather: Anowing ")
                     Text("Time of Death: 7pm - 7am")
                     
                     Text("Cause of Death: frozed in a locked basement ")
@@ -25,7 +25,7 @@ struct KatieView: View {
                 
                 .foregroundColor(.white)
                 
-                NavigationLink("Suspect alibi"){
+                NavigationLink("Suspect Alibi"){
                     SusView8()
                 }
                 .foregroundColor(.yellow)

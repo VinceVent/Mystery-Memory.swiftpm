@@ -46,15 +46,32 @@ struct ContentView: View {
                     // .frame(height:)
                         .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
                     
-//                    NavigationLink(destination: CaseView(wordplay: $wordplay)) {
-//                        Text("Next screen")
-//                        
-//                    }
-                    NavigationLink("Continue Detective"){
-                    CaseView()
-                }
-                    
-                .background(.orange)
+                    //                    NavigationLink(destination: CaseView(wordplay: $wordplay)) {
+                    //                        Text("Next screen")
+                    //                        
+                    //                    }
+                    HStack{
+                        ZStack{
+                            
+                            NavigationLink("Continue Detective "){
+                                CaseView()
+                            }
+                            
+                            .background(.orange)
+                            .clipShape(Rectangle(), style: /*@START_MENU_TOKEN@*/FillStyle()/*@END_MENU_TOKEN@*/)
+                            .font(.title)
+                            .bold()
+                            .frame(width: 252, height: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        }
+                        
+                            
+                            Image(systemName: "arrowshape.right.fill")
+                                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                                .font(.system(size:64))
+                            
+                            
+                        
+                    }
                    //  .navigationBarBackButtonHidden(true)    
         // .navigationBarBackButtonHidden(navigationBarBackButtonHidden)
                     

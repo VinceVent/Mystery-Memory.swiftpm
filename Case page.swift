@@ -59,7 +59,7 @@ struct CaseView: View {
                     
                     Divider()
                         .overlay(.pink)
-                    // .frame(height:)
+                     
                         .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
                     HStack{
                         VStack{

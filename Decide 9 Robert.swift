@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct DecideView9: View {
-  //  @Binding var wordplay: WordPlay
+    //  @Binding var wordplay: WordPlay
     @State var dec = ""
     var body: some View {
         ZStack{
@@ -11,10 +11,10 @@ struct DecideView9: View {
                     .foregroundColor(.red)
                 Text(" [\(dec)]")
                     .foregroundColor(.blue)
-                VStack{
+                HStack{
                     
                     Button(""){
-                        dec = ""
+                        dec = "Incorrect"
                         
                     }
                     .foregroundColor(.yellow)
@@ -22,9 +22,9 @@ struct DecideView9: View {
                     .font(.title3)
                     .background(.red)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    .frame(width: 100, height: 100)
+                    .frame(width: 100, height: 70)
                     Button(""){
-                        dec = ""
+                        dec = "Not right"
                         
                     }
                     .foregroundColor(.yellow)
@@ -32,10 +32,10 @@ struct DecideView9: View {
                     .font(.title3)
                     .background(.green)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    .frame(width: 100, height: 100)
+                    .frame(width: 100, height: 70)
                     Button(""){
                         
-                        dec = ""
+                        dec = "Not correct"
                         
                         
                     }
@@ -44,9 +44,12 @@ struct DecideView9: View {
                     .font(.title3)
                     .background(.blue)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    .frame(width: 100, height: 100)
+                    .frame(width: 100, height: 70)
+                }
+                HStack{
+                    
                     Button(""){
-                        dec = ""
+                        dec = "Correct"
                         
                     }
                     .foregroundColor(.yellow)
@@ -54,18 +57,17 @@ struct DecideView9: View {
                     .font(.title3)
                     .background(.blue)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    .frame(width: 100, height: 100)
+                    .frame(width: 100, height: 70)
                     Button(""){
-                        dec = ""
+                        dec = "Incorrect"
                     }
                     .foregroundColor(.yellow)
                     .padding()
                     .font(.title3)
                     .background(.pink)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    .frame(width: 100, height: 100)
+                    .frame(width: 100, height: 70)
                 }
-                .foregroundColor(.white)
             }
         }
     }

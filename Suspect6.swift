@@ -13,7 +13,7 @@ struct SusView6: View {
                 Divider()
                 Text("Preston: I was cooking up some burgers for Allen.  ")
                 Divider()
-                Text("Robert:I was out buying a ticket to the zoo for everyone. ")
+                Text("Robert: I was out buying a ticket to the zoo for everyone. ")
                 Divider()
                 NavigationLink("Who stole it?"){
                     DecideView6()

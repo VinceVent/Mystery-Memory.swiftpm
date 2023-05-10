@@ -13,8 +13,8 @@ struct DecideView8: View {
                     .foregroundColor(.blue)
                 HStack{
                     
-                    Button(""){
-                        dec = ""
+                    Button("Blake"){
+                        dec = "hhhmmm doesn't seem so"
                         
                     }
                     .foregroundColor(.yellow)
@@ -22,8 +22,9 @@ struct DecideView8: View {
                     .font(.title3)
                     .background(.red)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    Button(""){
-                        dec = ""
+                    .frame(width: 100, height: 70)
+                    Button("Wold"){
+                        dec = "Nah"
                         
                     }
                     .foregroundColor(.yellow)
@@ -31,9 +32,10 @@ struct DecideView8: View {
                     .font(.title3)
                     .background(.green)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    Button(""){
+                    .frame(width: 100, height: 70)
+                    Button("Owen"){
                         
-                        dec = ""
+                        dec = "Yep he thought it was a harmless prank (no prank can ever be harmless 🙃) "
                         
                         
                     }
@@ -42,18 +44,30 @@ struct DecideView8: View {
                     .font(.title3)
                     .background(.blue)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    Button(""){
-                        dec = ""
+                    .frame(width: 100, height: 70)
+                }
+                HStack{
+                    
+                    Button("Ethen"){
+                        dec = "can't be him"
                         
+                    }
+                    .foregroundColor(.yellow)
+                    .padding()
+                    .font(.title3)
+                    .background(.blue)
+                    .clipShape(RoundedRectangle(cornerRadius: 15))
+                    .frame(width: 100, height: 70)
+                    Button("Aqua"){
+                        dec = "nope"
                     }
                     .foregroundColor(.yellow)
                     .padding()
                     .font(.title3)
                     .background(.pink)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
-                    
+                    .frame(width: 100, height: 70)
                 }
-                .foregroundColor(.white)
             }
         }
     }

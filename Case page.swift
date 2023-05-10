@@ -37,7 +37,7 @@ struct CaseView: View {
                         
                             .onAppear{
                                 
-                                withAnimation(Animation.linear(duration:10).repeatForever())
+                                withAnimation(Animation.linear(duration:150).repeatForever())
                                 { ani.toggle()}
                                 
                             }

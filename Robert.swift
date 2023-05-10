@@ -6,19 +6,19 @@ struct RobertView: View {
             Rectangle()
             VStack{
                 VStack{
-                    Text("age: ")
+                    Text("age: 37 ")
                     
-                    Text("Address: ")
+                    Text("Address: 432 Robert RD")
                     
-                    Text("Hate: ")
+                    Text("Hate: loud noises, expensive items")
                     
-                    Text("Like: ")
-                    Text("Weather: ")
+                    Text("Like: his house, his car, going to the library, his books")
+                    Text("Weather: rainy")
                     
                     
-                    Text("Cause of Death: ")
-                    Text("Date of Death: ")
-                    Text("Suspects: ")
+                    Text("Stolen Items: All of his books")
+                    Text("Date: Monday")
+                    Text("Suspects: Joel, Freddy, Brian, Roger, Johnny")
                     
                 }
                 

@@ -7,15 +7,15 @@ struct SusView9: View {
         ZStack{
             Rectangle()
             VStack{
-                Text("")
+                Text("Joel: ")
                 Divider()
-                Text("")
+                Text("Freddy: ")
                 Divider()
-                Text("")
+                Text("Brian: ")
                 Divider()
-                Text("")
+                Text("Roger: ")
                 Divider()
-                Text("")
+                Text("Johnny: ")
                 NavigationLink("Who Murdered Robert?"){
                     DecideView9()
                     // DecideView3(wordplay: $wordplay)

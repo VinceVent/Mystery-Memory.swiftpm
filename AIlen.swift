@@ -13,7 +13,7 @@ struct AllenView: View {
                     Text("Hate: techology,phones,job, meat, stuff animal")
                     
                     Text("Like: trees, animals, school, pots, glasses ")
-                    Text("Weather: ")
+                    Text("Weather: cloudy")
                     
                     
                     Text("Cause of death: electrocuted by a eel ")

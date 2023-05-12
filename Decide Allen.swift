@@ -8,7 +8,7 @@ struct DecideView6: View {
         ZStack{
             Rectangle()
             VStack{
-                Text("Decide: who put the eel in the pool")
+                Text("Decide: Who put the eel in the pool")
                     .foregroundColor(.red)
                 Text(" [\(dec)]")
                     .foregroundColor(.blue)
@@ -28,7 +28,7 @@ struct DecideView6: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Preston"){
                         dec = "yep"
-                        r = "He had forgot to tell everyone were he put their pet electric eel"
+                        r = "He had forgot to tell everyone where he put their pet electric eel"
                     }
                     .foregroundColor(.yellow)
                     .padding()

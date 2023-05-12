@@ -10,9 +10,9 @@ struct AllenView: View {
                     
                     Text("Address: Basement  Rd")
                     
-                    Text("Hate: Techology, phones, job, meat, penils")
+                    Text("Hate: Technology, phones, job, meat, pencils")
                     
-                    Text("Like: trees,aquatic animals, school, pots, glasses ")
+                    Text("Like: trees, aquatic animals, school, pots, glasses ")
                     Text("Weather: Cloudy")
                     
                     

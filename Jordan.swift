@@ -21,7 +21,7 @@ struct jordanView: View {
                     Text("Time of Death: 9:37 AM")
                     Text("Suspects: Samuel, Theodore, Jake, Jacob, James")
                    
-                    Text("Jordan was out to get some grocery,but was hit by a unknown car, The suspect ranned off into the forrest and has not been found, but the license plate was the only clue that lead us to the 5 suspects that owns the license.")
+                    Text("Jordan was out to get some grocery, but was hit by a unknown car. The suspect ran off into the forrest and has not been found, but the license plate was the only clue that lead us to the 5 suspects that owns the license.")
                         .frame(width: 255, height: 175, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 }
                 

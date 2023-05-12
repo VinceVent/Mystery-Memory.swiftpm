@@ -52,7 +52,7 @@ struct DecideView8: View {
                 }
                 HStack{
                     
-                    Button("Ethen"){
+                    Button("Ethan"){
                         dec = "can't be him"
                         
                     }

@@ -18,16 +18,28 @@ struct SusView7: View {
                 
                 Text("James: I was working at my job making some burgers for the customers, and started go home on my motorcycle at 10:30 AM.")
                  .frame(height:70)
-                NavigationLink("Who Murdered Jordan?"){
-                    DecideView7()
-                    // DecideView3(wordplay: $wordplay)
-                }
                 
-                .foregroundColor(.yellow)
-                .padding()
-                .font(.title3)
-                .background(.gray)
-                .clipShape(RoundedRectangle(cornerRadius: 30))
+                VStack{
+                    NavigationLink("Who Murdered Jordan?"){
+                        DecideView7()
+                        // DecideView3(wordplay: $wordplay)
+                    }
+                    
+                    .foregroundColor(.yellow)
+                    .padding()
+                    .font(.title3)
+                    .background(.gray)
+                    .clipShape(RoundedRectangle(cornerRadius: 30))
+                    NavigationLink("Notepad"){NotePadView()
+                        
+                        
+                    }
+                    .foregroundColor(.green)
+                    .padding()
+                    .font(.title3)
+                    .background(.indigo)
+                    .bold()
+                }
             }
             .foregroundColor(.white)
             //      .font(.title3)

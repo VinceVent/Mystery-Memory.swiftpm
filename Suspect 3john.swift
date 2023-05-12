@@ -14,6 +14,7 @@ struct SusView3: View {
                 Divider()
                 Text("Tim: I was watching a moive and making popcorn")
                 Divider()
+                VStack{
                 NavigationLink("who's the Murder?"){
                     DecideView3()
                     // DecideView3(wordplay: $wordplay)
@@ -24,6 +25,16 @@ struct SusView3: View {
                 .font(.title3)
                 .background(.gray)
                 .clipShape(RoundedRectangle(cornerRadius: 30))
+                    NavigationLink("Notepad"){NotePadView()
+                        
+        
+                    }
+                    .foregroundColor(.green)
+                    .padding()
+                    .font(.title3)
+                    .background(.indigo)
+                    .bold()
+            }
             }      
             .foregroundColor(.white)         
             //      .font(.title3)  

@@ -15,16 +15,28 @@ struct SusView4: View {
                 Divider()
                 Text("Harry: I was outside walking with my dog")
                 Divider()
-                NavigationLink("Who stole it?"){
-                    DecideView4()
-                    // DecideView3(wordplay: $wordplay)
-                }
                 
-                .foregroundColor(.yellow)
-                .padding()
-                .font(.title3)
-                .background(.gray)
-                .clipShape(RoundedRectangle(cornerRadius: 30))
+                VStack{
+                    NavigationLink("Who stole it?"){
+                        DecideView4()
+                        // DecideView3(wordplay: $wordplay)
+                    }
+                    
+                    .foregroundColor(.yellow)
+                    .padding()
+                    .font(.title3)
+                    .background(.gray)
+                    .clipShape(RoundedRectangle(cornerRadius: 30))
+                    NavigationLink("Notepad"){NotePadView()
+                        
+                        
+                    }
+                    .foregroundColor(.green)
+                    .padding()
+                    .font(.title3)
+                    .background(.indigo)
+                    .bold()
+                }
             }
             .foregroundColor(.white)
             //      .font(.title3)

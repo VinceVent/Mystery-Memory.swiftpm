@@ -16,16 +16,32 @@ struct SusView9: View {
                 Text("Roger: I was at the grocery")
                 Divider()
                 Text("Johnny: I was at a concert")
-                NavigationLink("Who Murdered Robert?"){
-                    DecideView9()
-                    // DecideView3(wordplay: $wordplay)
-                }
                 
-                .foregroundColor(.yellow)
-                .padding()
-                .font(.title3)
-                .background(.gray)
-                .clipShape(RoundedRectangle(cornerRadius: 30))
+                
+                VStack{
+                    NavigationLink("Who Murdered Robert?"){
+                        DecideView9()
+                        // DecideView3(wordplay: $wordplay)
+                    }
+                    
+                    .foregroundColor(.yellow)
+                    .padding()
+                    .font(.title3)
+                    .background(.gray)
+                    .clipShape(RoundedRectangle(cornerRadius: 30))
+                    NavigationLink("Notepad"){NotePadView()
+                        
+        
+                    }
+                    .foregroundColor(.green)
+                    .padding()
+                    .font(.title3)
+                    .background(.indigo)
+                    .bold()
+                    
+                    
+                }
+              
             }
             .foregroundColor(.white)
             //      .font(.title3)

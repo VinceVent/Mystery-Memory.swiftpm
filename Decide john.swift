@@ -2,6 +2,7 @@ import SwiftUI
 struct DecideView3: View {
   //  @Binding var wordplay: WordPlay
     @State var dec = ""
+     @State var r = ""
     var body: some View {
         ZStack{
             Rectangle()
@@ -10,6 +11,9 @@ struct DecideView3: View {
                     .foregroundColor(.red)
                 Text(" [\(dec)]")
                     .foregroundColor(.blue)
+                Text("\(r)")
+                    .foregroundColor(.green)
+                    .bold()
                 HStack{
                     
                     Button("Cart"){
@@ -23,7 +27,7 @@ struct DecideView3: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Mike"){
                         dec = "Correct!"
-                        
+                        r = "Reason: he was the only one with knife and why was he cutting tomatoes?"
                     }
                     .foregroundColor(.yellow)
                     .padding()

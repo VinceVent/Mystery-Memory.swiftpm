@@ -18,15 +18,16 @@ struct CharlesView: View {
                     
                     Text("Adress: His home ")
                     
-                    Text("Hate: People who steal, robberies")
+                    Text("Hate: people who don't clean after themself, anything that is dirty, robberies")
                     
-                    Text("Like: His car and other vehicles")
+                    Text("Like: His car, his house, his wealth")
                     Text("Weather and Time of Day: Cloudy and Night ")
                     
                     
                     Text("Stolen Item: His car")
                     Text("Date of when it was stolen: A Tuesday")
                     Text("Suspects: George, Ron, Michael, Harry")
+                    Text("Charles was just minding his business eating his well done Steak, then suddenly he heard his car running off, The suspect")
                 }
                 
                 .foregroundColor(.white)

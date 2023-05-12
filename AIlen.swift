@@ -10,16 +10,16 @@ struct AllenView: View {
                     
                     Text("Address: Basement  Rd")
                     
-                    Text("Hate: Techology, phones, job, meat, stuffed animals")
+                    Text("Hate: Techology, phones, job, meat, penils")
                     
-                    Text("Like: trees, animals, school, pots, glasses ")
+                    Text("Like: trees,aquatic animals, school, pots, glasses ")
                     Text("Weather: Cloudy")
                     
                     
                     Text("Cause of death: electrocuted by an eel")
                     Text("Date of Death: 11/22/64")
-                    Text("Injuires: Shock marks all over his face,")
-                    Text("Body found: In Allen's Swimming pool ")
+                    Text("Injuires: Shock marks all over his body,")
+                    Text("Body found: In his own swimming pool ")
                     Text("Suspects: Danial, Robert, Preston, Neo")
                     
                 }

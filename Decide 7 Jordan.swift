@@ -3,6 +3,7 @@ import SwiftUI
 struct DecideView7: View {
   //  @Binding var wordplay: WordPlay
     @State var dec = ""
+    @State var r = ""
     var body: some View {
         ZStack{
             Rectangle()
@@ -11,6 +12,9 @@ struct DecideView7: View {
                     .foregroundColor(.red)
                 Text(" [\(dec)]")
                     .foregroundColor(.blue)
+                Text("\(r)")
+                    .foregroundColor(.green)
+                    .bold()
                 HStack{
                     
                     Button("Samuel"){
@@ -50,7 +54,7 @@ struct DecideView7: View {
                     
                     Button("Jacob"){
                         dec = "Correct"
-                        
+                       r = "Reason: he was out buying grocery near the time of the crash" 
                     }
                     .foregroundColor(.yellow)
                     .padding()

@@ -3,6 +3,7 @@ import SwiftUI
 struct DecideView8: View {
     //  @Binding var wordplay: WordPlay
     @State var dec = ""
+     @State var r = ""
     var body: some View {
         ZStack{
             Rectangle()
@@ -11,6 +12,9 @@ struct DecideView8: View {
                     .foregroundColor(.red)
                 Text(" [\(dec)]")
                     .foregroundColor(.blue)
+                Text("\(r)")
+                    .foregroundColor(.green)
+                    .bold()
                 HStack{
                     
                     Button("Blake"){

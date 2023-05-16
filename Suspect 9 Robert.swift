@@ -7,13 +7,13 @@ struct SusView9: View {
         ZStack{
             Rectangle()
             VStack{
-                Text("Joel: I hate reading and haven't read a book since High School")
+                Text("Joel: I was looking for a history book about WW2 but sadly it was aready check out")
                 Divider()
-                Text("Freddy: I was fixing my car in my garage ")
+                Text("Freddy: I was looking around for a book that ")
                 Divider()
-                Text("Brian: I was asleep")
+                Text("Brian: I was sleeping at a table near by the History section, and also why am I a suspect if you can be from the camera, I was just sleeping and never went into the section")
                 Divider()
-                Text("Roger: I was at the grocery")
+                Text("Roger: I was looking for a book about the Pearl Harbor and ")
                 Divider()
                 Text("Johnny: I was at a concert")
                 

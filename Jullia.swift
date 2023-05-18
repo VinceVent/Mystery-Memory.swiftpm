@@ -7,26 +7,26 @@ struct julliaView: View {
             VStack{
                 VStack{
                     Text("Age: 26")
-                        .font(.system(size: 30))
+                        
                     Text("Address: 123 no RD ")
-                        .font(.system(size: 30))
+                     
                     Text("Hate: Her job, corn, debates, toys")
-                        .font(.system(size: 30))
+                        
                     Text("Like: dogs, her pet dog name Mars, learning ")
-                        .font(.system(size: 30))
+                      
                     Text("Weather: Sunny")
-                        .font(.system(size: 30))
+                      
                     
                     Text("Stolen animal: her dog Mary")
-                        .font(.system(size: 30))
+                       
                     Text("Date of when it was stolen: A Wednesday")
-                        .font(.system(size: 30))
+                        
                     Text("Time: unkown")
-                        .font(.system(size: 30))
+                        
                     Text("Suspects: Sean, Dylan, Marry, Scott")
-                        .font(.system(size: 30))
+                     
                     Text("Jullia was just having her normal day of seeing her dog in the morning to giving it some dog food before leaving her home to her job at 9 am and coming home at 5 pm finding her dog missing, with only her friends living in the same house as her to be the suspects.")
-                        .font(.system(size: 20))
+                        
                         .frame(width: 350, height: 190, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     
                 }

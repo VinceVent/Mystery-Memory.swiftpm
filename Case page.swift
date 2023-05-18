@@ -130,7 +130,7 @@ struct CaseView: View {
                         VStack{
                             Text("Medium")
                                 .foregroundColor(.yellow)
-                            font(.system(size: 45))
+                                .font(.system(size: 45))
                                 .bold()
                             ZStack{
                                 Image(systemName: "questionmark.folder.fill")
@@ -184,7 +184,7 @@ struct CaseView: View {
                         VStack{
                             Text("Hard")
                                 .foregroundColor(.red)
-                            font(.system(size: 45))
+                                .font(.system(size: 45))
                                 .bold()
                             ZStack{
                                 Image(systemName: "questionmark.folder.fill")

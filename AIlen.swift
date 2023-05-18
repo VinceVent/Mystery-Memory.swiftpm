@@ -7,20 +7,27 @@ struct AllenView: View {
             VStack{
                 VStack{
                     Text("Age: 17")
-                    
+                        .font(.system(size: 35))
                     Text("Address: Basement  Rd")
-                    
+                        .font(.system(size: 35))
                     Text("Hate: Technology, phones, job, meat, pencils")
-                    
+                        .font(.system(size: 35))
                     Text("Like: trees, aquatic animals, school, pots, glasses ")
+                        .font(.system(size: 35))
                     Text("Weather: Cloudy")
+                        .font(.system(size: 35))
                     
                     
                     Text("Cause of death: electrocuted by an eel")
+                        .font(.system(size: 35))
                     Text("Date of Death: 11/22/64")
+                        .font(.system(size: 35))
                     Text("Injuires: Shock marks all over his body,")
+                        .font(.system(size: 35))
                     Text("Body found: In his own swimming pool ")
+                        .font(.system(size: 35))
                     Text("Suspects: Danial, Robert, Preston, Neo")
+                        .font(.system(size: 35))
                     
                 }
                 
@@ -31,7 +38,7 @@ struct AllenView: View {
                 }
                 .foregroundColor(.yellow)
                 .padding()
-                .font(.title3)
+                .font(.system(size: 45))
                 .background(.gray)
                 .clipShape(RoundedRectangle(cornerRadius: 30))
             }

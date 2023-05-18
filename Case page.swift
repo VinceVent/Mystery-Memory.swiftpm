@@ -241,6 +241,12 @@ struct CaseView: View {
                     ZStack{ Image(systemName: "questionmark.folder")
                             .foregroundColor(.brown)
                             .font(.system(size:90))
+                        NavigationLink("               ") {
+                            RobertVew()
+                        }
+                        .foregroundColor(.white)
+                        .font(.title3)
+                        .bold()
                         Text("X")
                             .font(.system(size:77))
                             .foregroundColor(.red)

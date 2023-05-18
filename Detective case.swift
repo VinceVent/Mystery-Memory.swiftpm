@@ -18,10 +18,10 @@ struct RobertVew: View {
                     Text("Weather: thundering")
                     
                     
-                    Text("Death: ")
-                    Text("Date: Monday")
+                    Text("Death: found shot in the back of his head at the front door of his own office ")
+                    Text("Date: 1-9-93")
                     Text("Suspects: John, Cary, Potter, Gary,Isacc, Ban  ")
-                    Text(" ")
+                    Text(" The detective was on his way to the office till he was shot in the back of his head, the suspect could only be his coworkers as they were the only on in the building and no one was seen on the camera going in or out.")
                         .frame(width: 300, height: 250, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 }
                 
@@ -36,7 +36,7 @@ struct RobertVew: View {
                 .background(.gray)
                 .clipShape(RoundedRectangle(cornerRadius: 30))
             }
-            .navigationTitle("Robert")
+            .navigationTitle("Detective")
             
         }
     }

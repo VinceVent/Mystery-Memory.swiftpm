@@ -59,7 +59,7 @@ struct DecideView10: View {
                     .foregroundColor(.yellow)
                     .padding()
                     .font(.title3)
-                    .background(.blue)
+                    .background(.cyan)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     .frame(width: 100, height: 70)
                     Button("Potter"){
@@ -77,7 +77,7 @@ struct DecideView10: View {
                     .foregroundColor(.yellow)
                     .padding()
                     .font(.title3)
-                    .background(.pink)
+                    .background(.purple)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     .frame(width: 100, height: 70)
                 }

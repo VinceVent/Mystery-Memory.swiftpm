@@ -247,6 +247,7 @@ struct CaseView: View {
                         .foregroundColor(.white)
                         .font(.title3)
                         .bold()
+                        .font(.system(size:77))
                         Text("X")
                             .font(.system(size:77))
                             .foregroundColor(.red)

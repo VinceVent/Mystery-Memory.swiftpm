@@ -21,8 +21,8 @@ struct SusView10: View {
                 Text("John:I felt asleep while looking at a missing dog case, but was waked up by a gun shot. ")
                 
                 VStack{
-                    NavigationLink("Who Murdered Robert?"){
-                        DecideView9()
+                    NavigationLink("Who did it?"){
+                        DecideView10()
                         // DecideView3(wordplay: $wordplay)
                     }
                     

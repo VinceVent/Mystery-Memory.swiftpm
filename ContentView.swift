@@ -17,26 +17,27 @@ struct ContentView: View {
                 VStack{
                     Image("App2")
                         .resizable()
-                        .frame(width: 150, height: 150)
+                        .frame(width: 300, height: 300)
                         .padding()
                     
                     Text("Mystery")
                         .foregroundColor(.white)
-                        .font(.title)
+                        .font(.system(size: 65))
                         .bold()
+                        
                     Text("Memory")
                         .foregroundColor(.white)
-                        .font(.title)
+                        .font(.system(size: 65))
                         .bold()
                     Image(systemName: "a.book.closed.fill.hi")
                         .foregroundColor(.white)
-                        .font(.title)
+                        .font(.system(size: 50))
                         .bold()
                     
                     HStack{
                         Text("Who? Where? What?")
                             .foregroundColor(.red)
-                            .font(.title)
+                            .font(.system(size: 40))
                             .bold()
                     }
                     
@@ -59,7 +60,7 @@ struct ContentView: View {
                             
                             .background(.orange)
                             .clipShape(Rectangle(), style: /*@START_MENU_TOKEN@*/FillStyle()/*@END_MENU_TOKEN@*/)
-                            .font(.title)
+                            .font(.system(size: 25))
                             .bold()
                             .frame(width: 252, height: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         }
@@ -67,7 +68,7 @@ struct ContentView: View {
                             
                             Image(systemName: "arrowshape.right.fill")
                                 .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-                                .font(.system(size:64))
+                                .font(.system(size: 35))
                             
                             
                         

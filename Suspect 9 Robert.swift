@@ -13,22 +13,23 @@ struct SusView9: View {
                 Divider()
                 Text("Brian: I was sleeping at a table near by the History section, and also why am I a suspect if you can be from the camera, I was just sleeping and never went into the section")
                 Divider()
-                Text("Roger: I was looking for a book about the Pearl Harbor and ")
+                Text("Roger: I was looking for a book about the Pearl Harbor but decided to read about how Hitler became the one we know now.")
                 Divider()
-                Text("Johnny: I was at a concert")
+                Text("Johnny: I was ")
                 
                 
                 VStack{
-                    NavigationLink("Who Murdered Robert?"){
+                    NavigationLink("Who stole from the Library?"){
                         DecideView9()
                         // DecideView3(wordplay: $wordplay)
                     }
                     
-                    .foregroundColor(.yellow)
+                    .foregroundColor(.pink)
                     .padding()
                     .font(.title3)
-                    .background(.gray)
-                    .clipShape(RoundedRectangle(cornerRadius: 30))
+                    .background(.teal)
+                    .clipShape(RoundedRectangle(cornerRadius: 16))
+                    .bold()
                     NavigationLink("Notepad"){NotePadView()
                         
         

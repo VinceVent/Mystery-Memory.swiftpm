@@ -48,7 +48,7 @@ struct DecideView5: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Marry"){
                         dec = "It seems the dognapper is founded"
-                        r = "She was moving out with the dog in the heavy box that Scott helped her carried"
+                        r = "Reason: She was moving out with the dog in the heavy box that Scott helped her carried"
                     }
                     .foregroundColor(.yellow)
                     .padding()

@@ -18,7 +18,7 @@ struct DecideView10: View {
                 HStack{
                     
                     Button("Ban"){
-                        dec = "Incorrect"
+                        dec = "Ban 10 no"
                         
                     }
                     .foregroundColor(.yellow)
@@ -28,7 +28,7 @@ struct DecideView10: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     .frame(width: 100, height: 70)
                     Button("Isacc"){
-                        dec = "Not right"
+                        dec = "definetly no"
                         
                     }
                     .foregroundColor(.yellow)
@@ -39,7 +39,7 @@ struct DecideView10: View {
                     .frame(width: 100, height: 70)
                     Button("Gary"){
                         
-                        dec = "Not correct"
+                        dec = "no"
                         
                         
                     }
@@ -53,7 +53,7 @@ struct DecideView10: View {
                 HStack{
                     
                     Button("Cary"){
-                        dec = "Correct"
+                        dec = "Nah"
                         
                     }
                     .foregroundColor(.yellow)
@@ -72,7 +72,8 @@ struct DecideView10: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     .frame(width: 100, height: 70)
                     Button("John"){
-                        dec = "Incorrect"
+                        dec = "it seems so"
+                        r = "Reason: How can he tell it was a gun shot?"
                     }
                     .foregroundColor(.yellow)
                     .padding()

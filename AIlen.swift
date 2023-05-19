@@ -7,28 +7,30 @@ struct AllenView: View {
             VStack{
                 VStack{
                     Text("Age: 17")
-                        .font(.system(size: 35))
+                      
                     Text("Address: Basement  Rd")
-                        .font(.system(size: 35))
+                        
                     Text("Hate: Technology, phones, job, meat, pencils")
-                        .font(.system(size: 35))
+                        
                     Text("Like: trees, aquatic animals, school, pots, glasses ")
-                        .font(.system(size: 35))
+                    
                     Text("Weather: Cloudy")
-                        .font(.system(size: 35))
+                        
                     
                     
                     Text("Cause of death: electrocuted by an eel")
-                        .font(.system(size: 35))
+            
                     Text("Date of Death: 11/22/64")
-                        .font(.system(size: 35))
+                        
                     Text("Injuires: Shock marks all over his body,")
-                        .font(.system(size: 35))
+                        
                     Text("Body found: In his own swimming pool ")
-                        .font(.system(size: 35))
-                    Text("Suspects: Danial, Robert, Preston, Neo")
-                        .font(.system(size: 35))
-                    
+                    VStack{ 
+                        Text("Suspects: Danial, Robert, Preston, Neo")
+                        
+                        Text("Allen was on his way to his backyard for a swim but suddenly got hit by eletric by the eel, after a few hours he was found dead in the pool with his roomates to be the suspect on who put the eel into the pool.")
+                            .frame(width: 310, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    }
                 }
                 
                 .foregroundColor(.white)
@@ -38,7 +40,7 @@ struct AllenView: View {
                 }
                 .foregroundColor(.yellow)
                 .padding()
-                .font(.system(size: 45))
+               // .font(.system(size: 45))
                 .background(.gray)
                 .clipShape(RoundedRectangle(cornerRadius: 30))
             }

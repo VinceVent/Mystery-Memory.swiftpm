@@ -57,19 +57,27 @@ struct ContentView: View {
                             NavigationLink("Continue Detective "){
                                 CaseView()
                             }
-                            
-                            .background(.orange)
-                            .clipShape(Rectangle(), style: /*@START_MENU_TOKEN@*/FillStyle()/*@END_MENU_TOKEN@*/)
-                            .font(.system(size: 25))
+                            .foregroundColor(.pink)
+                            .padding()
+                            .font(.system(size:20))
                             .bold()
-                            .frame(width: 252, height: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .background(.yellow)
+                            .clipShape(RoundedRectangle(cornerRadius: 16))
                         }
                         
-                            
-                            Image(systemName: "arrowshape.right.fill")
-                                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-                                .font(.system(size: 35))
-                            
+                            ZStack{
+                                Image(systemName: "arrowshape.right.fill")
+                                    .foregroundColor(.green)
+                                    .font(.system(size: 70))
+                                Image(systemName: "arrowshape.right.fill")
+                                    .foregroundColor(.blue)
+                                    .font(.system(size: 40))
+                                
+                                
+                                
+                                
+                            }
+                                                        
                             
                         
                     }

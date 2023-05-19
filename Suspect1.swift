@@ -20,11 +20,12 @@ struct SusView1: View {
                         //  DecideView(wordplay: $wordplay)
                     }
                     
-                    .foregroundColor(.yellow)
+                    .foregroundColor(.pink)
                     .padding()
                     .font(.title3)
-                    .background(.gray)
-                    .clipShape(RoundedRectangle(cornerRadius: 30))
+                    .background(.teal)
+                    .clipShape(RoundedRectangle(cornerRadius: 16))
+                     .bold()
                     NavigationLink("Notepad"){NotePadView()
                         
                         

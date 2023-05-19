@@ -54,12 +54,12 @@ struct DecideView9: View {
                     
                     Button("Roger"){
                         dec = "Correct"
-                        
+                        r = "Reason: He thought he could take all the books"
                     }
                     .foregroundColor(.yellow)
                     .padding()
                     .font(.title3)
-                    .background(.blue)
+                    .background(.cyan)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     .frame(width: 100, height: 70)
                     Button("Johnny"){

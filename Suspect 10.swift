@@ -10,15 +10,15 @@ struct SusView10: View {
                 VStack{
                     Text("Cary: I was looking for a history book about WW2 but sadly it was aready check out")
                     Divider()
-                    Text("Gary: I was looking around for a book that ")
+                    Text("Gary: I was trying to look for my missing gun that I lost near the lunch room, but all of sudden I heard a big sound from the office ")
                 }
                                 Divider()
-                Text("Ban: I was sleeping at a table near by the History section, and also why am I a suspect if you can be from the camera, I was just sleeping and never went into the section")
+                Text("Ban: I was preparing to go home till I heard some kind of sound down the hall")
                 Divider()
-                Text("Isacc: I was looking for a book about the Pearl Harbor and ")
+                Text("Isacc: I was helping Potter clean out the locker room when we both heard yelling")
                 Divider()
-                Text("Potter:I was cleaning out the locker room, when I heard someone yelling (Fire) ")
-                Text("John:I felt asleep while looking at a missing dog case, but was waked up by a gun shot. ")
+                Text("Potter:I was cleaning out the locker room with the help of Isacc, till I heard someone yelling ")
+                Text("John:I felt asleep while looking at a missing dog case, but was waked up by a gunshot ")
                 
                 VStack{
                     NavigationLink("Who did it?"){
@@ -26,11 +26,12 @@ struct SusView10: View {
                         // DecideView3(wordplay: $wordplay)
                     }
                     
-                    .foregroundColor(.yellow)
+                    .foregroundColor(.pink)
                     .padding()
                     .font(.title3)
-                    .background(.gray)
-                    .clipShape(RoundedRectangle(cornerRadius: 30))
+                    .background(.teal)
+                    .clipShape(RoundedRectangle(cornerRadius: 16))
+                     .bold()
                     NavigationLink("Notepad"){NotePadView()
                         
                         

@@ -47,7 +47,7 @@ struct DecideView2: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Garp"){
                         dec = "You got The Fish!🍣"
-                        
+                        r = "Reason: He is a Fish 🎣"
                     }
                         .foregroundColor(.yellow)
                         .padding()

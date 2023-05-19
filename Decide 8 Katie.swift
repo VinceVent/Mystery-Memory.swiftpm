@@ -39,8 +39,8 @@ struct DecideView8: View {
                     .frame(width: 100, height: 70)
                     Button("Owen"){
                         
-                        dec = "Yep he thought it was a harmless prank (no prank can ever be harmless 🙃) "
-                        
+                        dec = "Yep"
+                        r = "Reason: He thought it was a harmless prank (no prank can ever be harmless 🙃)"
                         
                     }
                     .foregroundColor(.yellow)
@@ -59,7 +59,7 @@ struct DecideView8: View {
                     .foregroundColor(.yellow)
                     .padding()
                     .font(.title3)
-                    .background(.blue)
+                    .background(.cyan)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     .frame(width: 100, height: 70)
                     Button("Aqua"){

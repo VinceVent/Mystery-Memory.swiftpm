@@ -21,7 +21,7 @@ struct RobertVew: View {
                     Text("Death: found shot in the back of his head at the front door of his own office ")
                     Text("Date: 1-9-93")
                     Text("Suspects: John, Cary, Potter, Gary,Isacc, Ban  ")
-                    Text(" The detective was on his way to the office till he was shot in the back of his head, the suspect could only be his coworkers as they were the only on in the building and no one was seen on the camera going in or out.")
+                    Text(" The detective was on his way to the office till he was shot in the back of his head, the suspect could only be his coworkers as they were the only one in the building and no one was seen on the camera going in or out.")
                         .frame(width: 300, height: 250, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 }
                 

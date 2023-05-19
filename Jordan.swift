@@ -9,7 +9,7 @@ struct jordanView: View {
                     Text("Age: 58")
                     
                     Text("Address: 432 Notreal RD ")
-                   
+                       
                     Text("Hate: Wild animals, taxi, uber")
                     
                     Text("Like: His car, His TV ")

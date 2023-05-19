@@ -1,21 +1,21 @@
 import SwiftUI
 struct carelView: View {
- //   @Binding var wordplay: WordPlay
+
     var body: some View {
         ZStack{
             Rectangle()
             VStack{
                 VStack{
                     Text("Age: 19")
-                  //      .font(.system(size: 35))
+               
                     Text("Address: 1203, MemoryCove Rd")
                      //   .font(.system(size: 35))
                     Text("Hate: Bugs, children, hight, sleep ")
-                     //   .font(.system(size: 35))
+                     
                     Text("Like: Hotdogs, wild life, trees, climbing, explore")
-                    //    .font(.system(size: 35))
+                
                     Text("Weather: Sunny")
-                    //    .font(.system(size: 35))
+                   
                     
                     
                     Text("Cause of Death: Rock to the head")
@@ -38,7 +38,7 @@ struct carelView: View {
                 }
                 .foregroundColor(.yellow)
                 .padding()
-             //   .font(.system(size: 45))
+             
                 .background(.gray)
                 .clipShape(RoundedRectangle(cornerRadius: 30))
             }
@@ -46,7 +46,7 @@ struct carelView: View {
         }
         
             .navigationTitle("Carel")
-         //   .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+     
         
         
         

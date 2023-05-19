@@ -26,7 +26,7 @@ struct johnView: View {
                     Text("Body found: In his home")
                      
                     Text("Suspects: Mike, Mark, Jim, Tim")
-                    //    .font(.system(size: 35))
+                    
                 }
                 
                 .foregroundColor(.white)
@@ -36,7 +36,7 @@ struct johnView: View {
                 }
                 .foregroundColor(.yellow)
                 .padding()
-              //  .font(.system(size: 45))
+              
                 .background(.gray)
                 .clipShape(RoundedRectangle(cornerRadius: 30))
             }

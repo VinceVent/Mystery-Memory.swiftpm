@@ -19,15 +19,15 @@ struct carelView: View {
                     
                     
                     Text("Cause of Death: Rock to the head")
-                     //   .font(.system(size: 35))
+                    
                     Text("Date of Death: 12/23/47")
-                     //   .font(.system(size: 35))
+                   
                     Text("Injuires: Cuts on the leg and arm ")
-                    //    .font(.system(size: 35))
+                   
                     Text("Body found: Next to the camping road")
-                     //   .font(.system(size: 35))
+                    
                     Text("Suspects: Kat, Pugo, Joy, Garp")
-                      //  .font(.system(size: 35))
+                     
                     
                 }
                 

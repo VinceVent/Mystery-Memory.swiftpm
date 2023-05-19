@@ -9,18 +9,17 @@ struct julliaView: View {
                     Text("Age: 26")
                     //    .font(.system(size: 30))
                     Text("Address: 123 no RD ")
-                      //  .font(.system(size: 30))
+                      
                     Text("Hate: Her job, corn, debates, toys")
-                      //  .font(.system(size: 30))
+                    
                     Text("Like: dogs, her pet dog name Mars, learning ")
-                      //  .font(.system(size: 30))
+                    
                     Text("Weather: Sunny")
-                      //  .font(.system(size: 30))
                     
                     Text("Stolen animal: her dog Mary")
-                     //   .font(.system(size: 30))
+                    
                     Text("Date of when it was stolen: A Wednesday")
-                     //   .font(.system(size: 30))
+                    
                     Text("Time: unkown")
                      //   .font(.system(size: 30))
                     Text("Suspects: Sean, Dylan, Marry, Scott")

@@ -15,7 +15,7 @@ struct SusView9: View {
                 Divider()
                 Text("Roger: I was looking for a book about the Pearl Harbor but decided to read about how Hitler became the one we know now.")
                 Divider()
-                Text("Johnny: I was ")
+                Text("Johnny: I wasn't even in the history section, i only walked by it and went to the fication section.")
                 
                 
                 VStack{

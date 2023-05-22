@@ -46,7 +46,7 @@ struct CaseView: View {
                         // .frame(width: 200, height: 200, alignment: .center)
                         
                         VStack{
-                            Text("Choose Character")
+                            Text("Choose Case Folder")
                                 .foregroundColor(.white)
                                 .font(.system(size: 30))
                             Text("To Continue!")
@@ -125,7 +125,7 @@ struct CaseView: View {
                         
                         Divider()
                             .overlay(.pink)
-                            .frame(height:200)
+                            .frame(height:370)
                         
                         VStack{
                             Text("Medium")
@@ -179,8 +179,8 @@ struct CaseView: View {
                         
                         Divider()
                             .overlay(.pink)
-                            .frame(height:200)
-                        
+                            .frame(height:370)
+                       
                         VStack{
                             Text("Hard")
                                 .foregroundColor(.red)

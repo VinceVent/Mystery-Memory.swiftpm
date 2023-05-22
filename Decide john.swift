@@ -27,7 +27,7 @@ struct DecideView3: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Mike"){
                         dec = "Correct!"
-                        r = "Reason: He was the only one with knife and why was he cutting tomatoes?"
+                        r = "Reason: don't throw a knife unless you know how to do it correctly"
                     }
                     .foregroundColor(.yellow)
                     .padding()

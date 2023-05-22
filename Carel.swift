@@ -17,18 +17,19 @@ struct carelView: View {
                     Text("Weather: Sunny")
                    
                     
-                    
-                    Text("Cause of Death: Rock to the head")
-                    
-                    Text("Date of Death: 12/23/47")
-                   
-                    Text("Injuires: Cuts on the leg and arm ")
-                   
-                    Text("Body found: Next to the camping road")
-                    
-                    Text("Suspects: Kat, Pugo, Joy, Garp")
-                     
-                    
+                    VStack{
+                        Text("Cause of Death: Rock to the head")
+                        
+                        Text("Date of Death: 12/23/47")
+                        
+                        Text("Injuires: Cuts on the leg and arm ")
+                        
+                        Text("Body found: Next to the camping road")
+                        
+                        Text("Suspects: Kat, Pugo, Joy, Garp")
+                        Text("Carel decided to go on a walk on the camping road in the back of his house but suddenly got hit by a very fast rock to the head causing him to bleed out and die.")
+                            .frame(width:270, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    }
                 }
                 
                 .foregroundColor(.white)

@@ -6,11 +6,11 @@ struct SusView1: View {
         ZStack{
             Rectangle()
             VStack{
-                Text("Karen - I was outside swimming in a pool till it rained.")  
+                Text("Karen - I was outside swimming in a pool.")  
                 Divider()
                 Text("Gabe - I was sleeping in the backyard till it rained. ")  
                 Divider()
-                Text("Tom - I was watching TV in the basement.")  
+                Text("Tom - I was watching the other TV in the basement.")  
                 Divider()
                 Text("Mark - I was with the cat eating in the kitchen.")  
                 Divider()

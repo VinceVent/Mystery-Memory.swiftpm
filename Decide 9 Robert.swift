@@ -4,6 +4,8 @@ struct DecideView9: View {
     //  @Binding var wordplay: WordPlay
     @State var dec = ""
      @State var r = ""
+    @State var congrats = ""
+    @State var case10 = ""
     var body: some View {
         ZStack{
             Rectangle()
@@ -14,6 +16,12 @@ struct DecideView9: View {
                     .foregroundColor(.blue)
                 Text("\(r)")
                     .foregroundColor(.green)
+                    .bold()
+                Text("\(congrats)")
+                    .foregroundColor(.yellow)
+                    .bold()
+                Text("\(case10)")
+                    .foregroundColor(.orange)
                     .bold()
                 HStack{
                     
@@ -55,6 +63,10 @@ struct DecideView9: View {
                     Button("Roger"){
                         dec = "Correct"
                         r = "Reason: He thought he could take all the books"
+                        
+                        congrats = "Congrats! you got all 9 Cases correctly!"
+                        
+                        case10 = "Case 10 has been unlocked!"
                     }
                     .foregroundColor(.yellow)
                     .padding()

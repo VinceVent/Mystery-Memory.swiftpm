@@ -6,7 +6,24 @@
 //
 
 import SwiftUI
+import AVKit
 
+class SoundManager {
+    static let instance = SoundManager()
+    
+    var player: AVAudioPlayer?
+    
+    func playSound() {
+        
+        guard let url = URL(string: "") else { return }
+        
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+        } catch let error {
+            print("Error playing soung. \(error.localizedDescription)")
+        }
+    }
+}
 
 struct soundeffects: View {
     var body: some View {

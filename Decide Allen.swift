@@ -19,7 +19,7 @@ struct DecideView6: View {
                     
                     Button("Danial"){
                         dec = "nope not here"
-                        
+                        r = "CLUE: Pet"
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -38,7 +38,7 @@ struct DecideView6: View {
                     Button("Neo"){
                         
                         dec = "Nah"
-                        
+                        r = "CLUE: Pet"
                         
                     }
                     .foregroundColor(.yellow)
@@ -48,7 +48,7 @@ struct DecideView6: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Robert"){
                         dec = "He didn't rob u"
-                        
+                        r = "CLUE: Pet"
                     }
                     .foregroundColor(.yellow)
                     .padding()

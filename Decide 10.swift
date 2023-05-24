@@ -19,7 +19,7 @@ struct DecideView10: View {
                     
                     Button("Ban"){
                         dec = "Ban 10 no"
-                        
+                        r = "CLUE: look back on suspect "
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -29,7 +29,7 @@ struct DecideView10: View {
                     .frame(width: 100, height: 70)
                     Button("Isacc"){
                         dec = "definetly no"
-                        
+                        r = "CLUE: look back on suspect "
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -40,7 +40,7 @@ struct DecideView10: View {
                     Button("Gary"){
                         
                         dec = "no"
-                        
+                        r = "CLUE: look back on suspect "
                         
                     }
                     .foregroundColor(.yellow)
@@ -54,7 +54,7 @@ struct DecideView10: View {
                     
                     Button("Cary"){
                         dec = "Nah"
-                        
+                        r = "CLUE: look back on suspect "
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -64,6 +64,7 @@ struct DecideView10: View {
                     .frame(width: 100, height: 70)
                     Button("Potter"){
                         dec = "Incorrect"
+                        r = "CLUE: look back on suspect "
                     }
                     .foregroundColor(.yellow)
                     .padding()

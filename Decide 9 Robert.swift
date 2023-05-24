@@ -27,7 +27,7 @@ struct DecideView9: View {
                     
                     Button("Joel"){
                         dec = "Incorrect"
-                        
+                        r = "CLUE: History event "
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -37,7 +37,7 @@ struct DecideView9: View {
                     .frame(width: 100, height: 70)
                     Button("Freddy"){
                         dec = "Not right"
-                        
+                        r = "CLUE: History event "
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -48,7 +48,7 @@ struct DecideView9: View {
                     Button("Brian"){
                         
                         dec = "Not correct"
-                        
+                        r = "CLUE: History event "
                         
                     }
                     .foregroundColor(.yellow)
@@ -76,6 +76,7 @@ struct DecideView9: View {
                     .frame(width: 100, height: 70)
                     Button("Johnny"){
                         dec = "Incorrect"
+                        r = "CLUE: History event "
                     }
                     .foregroundColor(.yellow)
                     .padding()

@@ -19,7 +19,7 @@ struct DecideView8: View {
                     
                     Button("Blake"){
                         dec = "hhhmmm doesn't seem so"
-                        
+                        r = "CLUE: put the story together from the suspect"
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -29,7 +29,7 @@ struct DecideView8: View {
                     .frame(width: 100, height: 70)
                     Button("Wold"){
                         dec = "Nah"
-                        
+                        r = "CLUE: put the story together from the suspect"
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -54,7 +54,7 @@ struct DecideView8: View {
                     
                     Button("Ethan"){
                         dec = "can't be him"
-                        
+                        r = "CLUE: put the story together from the suspect"
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -64,6 +64,7 @@ struct DecideView8: View {
                     .frame(width: 100, height: 70)
                     Button("Aqua"){
                         dec = "nope"
+                        r = "CLUE: put the story together from the suspect"
                     }
                     .foregroundColor(.yellow)
                     .padding()

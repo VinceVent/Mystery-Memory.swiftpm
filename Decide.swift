@@ -27,7 +27,7 @@ struct DecideView: View {
                         .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Gabe"){
                         dec = "Wrong :(" 
-                        
+                        r = "CLUE: Weather"
                     }
                         .foregroundColor(.yellow)
                         .padding()
@@ -37,7 +37,7 @@ struct DecideView: View {
                     Button("Tom"){ 
                         
                        dec = "Close :I" 
-                        
+                        r = "CLUE: Weather"
                         
                     }
                     .foregroundColor(.yellow)
@@ -47,7 +47,7 @@ struct DecideView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Mark"){
                         dec = "Nope 👾" 
-                        
+                        r = "CLUE: Weather"
                     }
                         .foregroundColor(.yellow)
                         .padding()

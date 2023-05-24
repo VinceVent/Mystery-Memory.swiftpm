@@ -19,7 +19,7 @@ struct DecideView7: View {
                     
                     Button("Samuel"){
                         dec = "Incorrect"
-                        
+                        r = "CLUE:outside"
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -29,7 +29,7 @@ struct DecideView7: View {
                     .frame(width: 100, height: 70)
                     Button("Theo"){
                         dec = "Not right"
-                        
+                        r = "CLUE:outside"
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -40,7 +40,7 @@ struct DecideView7: View {
                     Button("Jake"){
                         
                         dec = "Not correct"
-                        
+                        r = "CLUE:outside"
                         
                     }
                     .foregroundColor(.yellow)
@@ -64,6 +64,7 @@ struct DecideView7: View {
                     .frame(width: 100, height: 70)
                     Button("James"){
                         dec = "Incorrect"
+                        r = "CLUE:outside"
                     }
                     .foregroundColor(.yellow)
                     .padding()

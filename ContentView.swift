@@ -72,7 +72,15 @@ struct ContentView: View {
                                 Image(systemName: "arrowshape.right.fill")
                                     .foregroundColor(.blue)
                                     .font(.system(size: 40))
+                                NavigationLink("              "){
+                                    CaseView()
+                                }
+                                .foregroundColor(.pink)
+                                .padding()
+                                .font(.system(size:20))
+                                .bold()
                                 
+                  
                                 
                                 
                                 

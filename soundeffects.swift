@@ -1,10 +1,3 @@
-//
-//  soundeffects.swift
-//  My App
-//
-//  Created by James Balek on 5/24/23.
-//
-
 import SwiftUI
 import AVKit
 
@@ -13,9 +6,15 @@ class SoundManager {
     
     var player: AVAudioPlayer?
     
-    func playSound() {
+    enum SoundOption: String {
+        case correct
+        case Incorrect
+    }
+    
+    
+    func playSound(sound: SoundOption) {
         
-        guard let url = URL(string: "") else { return }
+        guard let url = Bundle.main.url(forResource: sound.rawValue, withExtension: ".mp3") else { return }
         
         do {
             player = try AVAudioPlayer(contentsOf: url)

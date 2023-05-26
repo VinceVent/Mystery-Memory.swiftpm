@@ -11,10 +11,14 @@ struct ContentView: View {
             
             
             ZStack{
+                
                 Rectangle()
                     .foregroundColor(.black)
                     .frame(width:2000, height:2000)
                 VStack{
+                    Text("Creators: Vincent Chen, James Balek")
+                        .foregroundColor(.blue)
+                        .font(.system(size:15))
                     Image("App2")
                         .resizable()
                         .frame(width: 300, height: 300)

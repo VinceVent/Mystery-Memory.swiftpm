@@ -15,16 +15,20 @@ struct DecideView2: View {
                     .foregroundColor(.green)
                     .bold()
                 HStack{
-                    
-                    Button("Pugo"){
+                    Button(action: {
+                      playSound(key: "correct.mp3")
                         dec = "no Pugo"
                         r = "CLUE: Fish"
+                    }) {
+                        Text("Pugo")
+                            .foregroundColor(.yellow)
+                            .padding()
+                            .font(.title3)
+                            .background(.red)
+                            .clipShape(RoundedRectangle(cornerRadius: 15))
                     }
-                        .foregroundColor(.yellow)
-                        .padding()
-                        .font(.title3)
-                        .background(.red)
-                        .clipShape(RoundedRectangle(cornerRadius: 15))
+                    
+                    
                     Button("Joy"){
                         dec = "Wrong joy"
                         r = "CLUE: Fish"

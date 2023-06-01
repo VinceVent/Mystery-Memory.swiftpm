@@ -1,8 +1,8 @@
 import SwiftUI
 struct DecideView2: View {
-  //  @Binding var wordplay: WordPlay
-@State var dec = ""
-     @State var r = ""
+    //  @Binding var wordplay: WordPlay
+    @State var dec = ""
+    @State var r = ""
     var body: some View {
         ZStack{
             Rectangle()
@@ -15,32 +15,27 @@ struct DecideView2: View {
                     .foregroundColor(.green)
                     .bold()
                 HStack{
-                    Button(action: {
-                      playSound(key: "correct.mp3")
+                    Button("Pugo") {
                         dec = "no Pugo"
                         r = "CLUE: Fish"
-                    }) {
-                        Text("Pugo")
-                            .foregroundColor(.yellow)
-                            .padding()
-                            .font(.title3)
-                            .background(.red)
-                            .clipShape(RoundedRectangle(cornerRadius: 15))
                     }
-                    
-                    
+                    .foregroundColor(.yellow)
+                    .padding()
+                    .font(.title3)
+                    .background(.red)
+                    .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Joy"){
                         dec = "Wrong joy"
                         r = "CLUE: Fish"
                     }
-                        .foregroundColor(.yellow)
-                        .padding()
-                        .font(.title3)
-                        .background(.green)
-                        .clipShape(RoundedRectangle(cornerRadius: 15))
+                    .foregroundColor(.yellow)
+                    .padding()
+                    .font(.title3)
+                    .background(.green)
+                    .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Kat"){
                         r = "CLUE: Fish"
-                       dec = "no but quiet Fishy"
+                        dec = "no but quiet Fishy"
                         
                         
                     }
@@ -53,17 +48,18 @@ struct DecideView2: View {
                         dec = "You got The Fish!🍣"
                         r = "Reason: He is a Fish 🎣"
                     }
-                        .foregroundColor(.yellow)
-                        .padding()
-                        .font(.title3)
-                        .background(.pink)
-                        .clipShape(RoundedRectangle(cornerRadius: 15))
+                    .foregroundColor(.yellow)
+                    .padding()
+                    .font(.title3)
+                    .background(.pink)
+                    .clipShape(RoundedRectangle(cornerRadius: 15))
+                    
                     
                 }
                 .foregroundColor(.white)
             }
         }
     }
+    
 }
-
 

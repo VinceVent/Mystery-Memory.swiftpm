@@ -19,7 +19,7 @@ struct DecideView4: View {
                     
                     Button("George"){
                         dec = "Wrong"
-                        r = "CLUE:time"
+                        r = "CLUE: Time"
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -28,7 +28,7 @@ struct DecideView4: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Ron"){
                         dec = "Wrong"
-                        r = "CLUE:time"
+                        r = "CLUE: Time"
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -36,7 +36,7 @@ struct DecideView4: View {
                     .background(.green)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Michael"){
-                        r = "CLUE:time"
+                        r = "CLUE: Time"
                         dec = "Wrong"
                         
                         
@@ -48,7 +48,7 @@ struct DecideView4: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Harry"){
                         dec = "Correct"
-                        r = "Reason: He was walking a dog in the middle of the night"
+                        r = "Reason: He was walking a dog in the middle of the night."
                     }
                     .foregroundColor(.yellow)
                     .padding()

@@ -36,7 +36,7 @@ struct DecideView: View {
                         .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Tom"){ 
                         
-                       dec = "Close :I" 
+                       dec = "Close" 
                         r = "CLUE: Weather"
                         
                     }

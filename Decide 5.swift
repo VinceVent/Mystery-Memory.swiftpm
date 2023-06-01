@@ -18,8 +18,8 @@ struct DecideView5: View {
                 HStack{
                     
                     Button("Sean"){
-                        dec = "doesn't seem so"
-                        r = "CLUE: box"
+                        dec = "Incorrect"
+                        r = "CLUE: Box"
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -28,7 +28,7 @@ struct DecideView5: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Dylan"){
                         dec = "Wrong"
-                        r = "CLUE: box"
+                        r = "CLUE: Box"
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -37,8 +37,8 @@ struct DecideView5: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Scott"){
                         
-                        dec = "nope"
-                        r = "CLUE: box"
+                        dec = "Nope"
+                        r = "CLUE: Box"
                         
                     }
                     .foregroundColor(.yellow)
@@ -47,8 +47,8 @@ struct DecideView5: View {
                     .background(.blue)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Marry"){
-                        dec = "It seems the dognapper is founded"
-                        r = "Reason: She was moving out with the dog in the heavy box that Scott helped her carried"
+                        dec = "It seems the dognapper has been found"
+                        r = "Reason: She was moving out with the dog in the heavy box that Scott helped her carried."
                     }
                     .foregroundColor(.yellow)
                     .padding()

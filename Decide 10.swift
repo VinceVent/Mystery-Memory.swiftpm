@@ -19,7 +19,7 @@ struct DecideView10: View {
                     
                     Button("Ban"){
                         dec = "Ban 10 no"
-                        r = "CLUE: look back on suspect "
+                        r = "CLUE: Look back on suspect "
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -28,8 +28,8 @@ struct DecideView10: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     .frame(width: 100, height: 70)
                     Button("Isacc"){
-                        dec = "definetly no"
-                        r = "CLUE: look back on suspect "
+                        dec = "Definetly no"
+                        r = "CLUE: Look back on suspect "
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -39,8 +39,8 @@ struct DecideView10: View {
                     .frame(width: 100, height: 70)
                     Button("Gary"){
                         
-                        dec = "no"
-                        r = "CLUE: look back on suspect "
+                        dec = "No"
+                        r = "CLUE: Look back on suspect "
                         
                     }
                     .foregroundColor(.yellow)
@@ -54,7 +54,7 @@ struct DecideView10: View {
                     
                     Button("Cary"){
                         dec = "Nah"
-                        r = "CLUE: look back on suspect "
+                        r = "CLUE: Look back on suspect "
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -64,7 +64,7 @@ struct DecideView10: View {
                     .frame(width: 100, height: 70)
                     Button("Potter"){
                         dec = "Incorrect"
-                        r = "CLUE: look back on suspect "
+                        r = "CLUE: Look back on suspect "
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -73,7 +73,7 @@ struct DecideView10: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     .frame(width: 100, height: 70)
                     Button("John"){
-                        dec = "it seems so"
+                        dec = "Correct"
                         r = "Reason: How can he tell it was a gun shot?"
                     }
                     .foregroundColor(.yellow)

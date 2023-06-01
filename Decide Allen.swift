@@ -18,7 +18,7 @@ struct DecideView6: View {
                 HStack{
                     
                     Button("Danial"){
-                        dec = "nope not here"
+                        dec = "Nope not here"
                         r = "CLUE: Pet"
                     }
                     .foregroundColor(.yellow)
@@ -47,7 +47,7 @@ struct DecideView6: View {
                     .background(.blue)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Robert"){
-                        dec = "He didn't rob u"
+                        dec = "He didn't rob Allen"
                         r = "CLUE: Pet"
                     }
                     .foregroundColor(.yellow)

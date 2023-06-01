@@ -17,9 +17,9 @@ struct CharlesView: View {
                     Text("Age: 45")
                      //   .font(.system(size: 30))
                     
-                    Text("Adress: His home ")
+                    Text("Address: His home ")
                      //   .font(.system(size: 30))
-                    Text("Hate: people who don't clean after themself, anything that is dirty, robberies")
+                    Text("Hate: People who don't clean after themself, anything that is dirty, robberies")
                       //  .font(.system(size: 30))
                     Text("Like: His car, his house, his wealth")
                       //  .font(.system(size: 30))

@@ -18,7 +18,7 @@ struct DecideView3: View {
                     
                     Button("Cart"){
                         dec = "No but close"
-                        r = "CLUE: the weapon"
+                        r = "CLUE: The weapon"
                     }
                     .foregroundColor(.yellow)
                     .padding()
@@ -27,7 +27,7 @@ struct DecideView3: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Mike"){
                         dec = "Correct!"
-                        r = "Reason: don't throw a knife unless you know how to do it correctly"
+                        r = "Reason: Don't throw a knife unless you know how to do it correctly"
                         
                     }
                     .foregroundColor(.yellow)
@@ -38,7 +38,7 @@ struct DecideView3: View {
                     Button("Jim"){
                         
                         dec = "Incorrect"
-                        r = "CLUE: the weapon"
+                        r = "CLUE:The weapon"
                         
                     }
                     .foregroundColor(.yellow)
@@ -48,7 +48,7 @@ struct DecideView3: View {
                     .clipShape(RoundedRectangle(cornerRadius: 15))
                     Button("Tim"){
                         dec = "Wrong"
-                        r = "CLUE: the weapon"
+                        r = "CLUE: The weapon"
                     }
                     .foregroundColor(.yellow)
                     .padding()

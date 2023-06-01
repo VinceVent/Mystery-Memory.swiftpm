@@ -17,8 +17,8 @@ struct SusView10: View {
                 Divider()
                 Text("Isacc: I was helping Potter clean out the locker room when we both heard yelling")
                 Divider()
-                Text("Potter:I was cleaning out the locker room with the help of Isacc, till I heard someone yelling ")
-                Text("John:I felt asleep while looking at a missing dog case, but was waked up by a gunshot ")
+                Text("Potter: I was cleaning out the locker room with the help of Isacc, till I heard someone yelling ")
+                Text("John: I felt asleep while looking at a missing dog case, but was waked up by a gunshot ")
                 
                 VStack{
                     NavigationLink("Who did it?"){

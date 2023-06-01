@@ -62,7 +62,7 @@ struct DecideView9: View {
                     
                     Button("Roger"){
                         dec = "Correct"
-                        r = "Reason: He thought he could take all the books"
+                        r = "Reason: He thought he could take all the books."
                         
                         congrats = "Congrats! you got all 9 Cases correctly!"
                         

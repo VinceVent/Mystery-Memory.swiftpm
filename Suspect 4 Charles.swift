@@ -9,7 +9,7 @@ struct SusView4: View {
             VStack{
                 Text("George: I was inside sleeping")
                 Divider()
-                Text("Ron:  I was looking for something I lost")
+                Text("Ron: I was looking for something I lost")
                 Divider()
                 Text("Michael: I was at the store buying groceries")
                 Divider()

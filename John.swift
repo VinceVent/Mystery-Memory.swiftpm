@@ -26,7 +26,7 @@ struct johnView: View {
                         Text("Body found: In his home")
                         
                         Text("Suspects: Mike, Mark, Jim, Tim")
-                        Text("John was well known for his amazing acting for his video's that he posted on Utub but during his video something went wrong and one of his friend stabed him with a knife in the back. The camera that saw it can't get the face of the person who stabed him but was one of the four suspect in the house during the time.  ")
+                        Text("John was well known for his amazing acting for his video's that he posted on Utub but during his video something went wrong and one of his friend stabed him with a knife in the back. The camera that saw it can't get the face of the person who stabed him but was one of the four suspect in the house during the time.")
                             .frame(width: 370, height: 155, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     }
                 }

@@ -12,15 +12,15 @@ struct julliaView: View {
                       
                     Text("Hate: Her job, corn, debates, toys")
                     
-                    Text("Like: dogs, her pet dog name Mars, learning ")
+                    Text("Like: Dogs, her pet dog name Mars, learning ")
                     
                     Text("Weather: Sunny")
                     
-                    Text("Stolen animal: her dog Mary")
+                    Text("Stolen animal: Her dog Mary")
                     
                     Text("Date of when it was stolen: A Wednesday")
                     
-                    Text("Time: unkown")
+                    Text("Time: Unkown")
                     
                     Text("Suspects: Sean, Dylan, Marry, Scott")
                       

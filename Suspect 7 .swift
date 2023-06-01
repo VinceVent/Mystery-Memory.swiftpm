@@ -7,7 +7,7 @@ struct SusView7: View {
         ZStack{
             Rectangle()
             VStack{
-                Text("Samuel: I was cooking some salmon in kichen when all of sudden the power went out.  ")
+                Text("Samuel: I was cooking some salmon in the kichen when all of sudden the power went out.  ")
                 
                 Text("Theo: I was trying to fix the power to the house, caused by the weather.")
                  
